@@ -2,13 +2,13 @@ provide-module kakounicode_kv_store %§
 
 declare-option -hidden str kakounicode_map_equals_escape_char "➺"
 
-define-command new-map -params 1 %{
+define-command -hidden new-map -params 1 %{
     declare-option -hidden str-to-str-map %arg{1}
 }
 
 declare-option -hidden str map_translate_result
 
-define-command map-translate -params 1..3 %{
+define-command -hidden map-translate -params 1..3 %{
     # Note that this may re-open this buffer, which is why we first delete any existing buffer contents.
     edit -scratch "*kakounicode-map-translate*"
     set-register v %arg{1}
@@ -26,17 +26,17 @@ define-command map-translate -params 1..3 %{
     set-option global map_translate_result %reg{v}
 }
 
-define-command map-escape-equals -params 1 %{
+define-command -hidden map-escape-equals -params 1 %{
     map-translate %arg{1} '=' %opt{kakounicode_map_equals_escape_char}
 }
 
-define-command map-unescape-equals -params 1 %{
+define-command -hidden map-unescape-equals -params 1 %{
     map-translate %arg{1} %opt{kakounicode_map_equals_escape_char} '='
 }
 
 declare-option -hidden str map_add_value_key ""
 
-define-command map-add-value -params 1..3 %{
+define-command -hidden map-add-value -params 1..3 %{
     # Escape any '=' character in the key
     map-escape-equals %arg{2}
     # We have to save it elsewhere as the next map-escape-equals will overwrite %opt{map_translate_result}
