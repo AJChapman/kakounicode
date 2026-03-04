@@ -1,0 +1,416 @@
+!`  ¡    \~y   ỹ    \lneq   ≨    \~\"{O}                                     Ṏ
+--  –    ^o_   º    \lnot   ¬    \~\"{o}                                     ṏ
+?`  ¿    $^1$  ¹    \male   ♂    \~\'{O}                                     Ṍ
+\        $^2$  ²    \mill   ₥    \~\'{U}                                     Ṹ
+\"  ̈     $^3$  ³    \ngeq   ≱    \~\'{o}                                     ṍ
+\'  ́     $^a$  ª    \ngtr   ≯    \~\'{u}                                     ṹ
+\,       $^o$  º    \nleq   ≰    \~\={O}                                     Ȭ
+\-  ­    \"{}  ¨    \nmid   ∤    \~\={o}                                     ȭ
+\.  ̇     \'\O  Ǿ    \nsim   ≁    ^\alpha                                     ᵅ
+\/  ‌     \'\o  ǿ    \odot   ⊙    ^\delta                                     ᵟ
+\:       \'{}  ´    \oint   ∮    ^\gamma                                     ˠ
+\;       \.{}  ˙    \perp   ⊥    ^\schwa                                     ᵊ
+\=  ̄     \={}  ¯    \peso   ₱    ^\theta                                     ᶿ
+\H  ̋     \Box  □    \prec   ≺    ^\u bar                                     ᶶ
+\L  Ł    \Cap  ⋒    \prod   ∏    $\times$                                    ×
+\O  Ø    \Chi  Χ    \qdrt   ∜    \Diamond                                    ◇
+\P  ¶    \Cup  ⋓    \quad        \Digamma                                    Ϝ
+\S  §    \Dei  Ϯ    \rect   ▭    \Epsilon                                    Ε
+\^  ̂     \Eta  Η    \rial   ﷼    \Omicron                                    Ο
+\`  ̀     \Fei  Ϥ    \sdiv   ⁄    \Uparrow                                    ⇑
+\b  ̱     \H{}  ˝    \shei   ϣ    \Upsilon                                    Υ
+\c  ̧     \Lsh  ↰    \sqrt   √    \afghani                                    ؋
+\d  ̣     \Phi  Φ    \star   ⋆    \austral                                    ₳
+\i  ı    \Psi  Ψ    \succ   ≻    \backsim                                    ∽
+\k  ̨     \Rho  Ρ    \surd   √    \because                                    ∵
+\l  ł    \Rsh  ↱    \u\'A   Ắ    \between                                    ≬
+\o  ø    \San  Ϻ    \u\'a   ắ    \bigcirc                                    ◯
+\u  ̆     \Sho  Ϸ    \u\`A   Ằ    \bigodot                                    ⨀
+\v  ̌     \Tau  Τ    \u\`a   ằ    \bigstar                                    ★
+\~  ̃     \Yot  Ϳ    \u\~A   Ẵ    \bitcoin                                    ₿
+^(  ⁽    \ast  ∗    \u\~a   ẵ    \boxplus                                    ⊞
+^)  ⁾    \bot  ⊥    \u{A}   Ă    \caution                                    ☡
+^+  ⁺    \bra  ⟨    \u{E}   Ĕ    \celsius                                    ℃
+^-  ⁻    \cap  ∩    \u{G}   Ğ    \coloneq                                    ≔
+^0  ⁰    \chi  χ    \u{I}   Ĭ    \ddagger                                    ‡
+^1  ¹    \cup  ∪    \u{O}   Ŏ    \diamond                                    ⋄
+^2  ²    \c{}  ¸    \u{U}   Ŭ    \digamma                                    ϝ
+^3  ³    \dag  †    \u{a}   ă    \dotplus                                    ∔
+^4  ⁴    \dei  ϯ    \u{e}   ĕ    \drachma                                    ₯
+^5  ⁵    \div  ÷    \u{g}   ğ    \epsilon                                    ϵ
+^6  ⁶    \ell  ℓ    \u{i}   ĭ    \eqarray                                    █
+^7  ⁷    \end  〗   \u{o}   ŏ    \eqcolon                                    ≕
+^8  ⁸    \eta  η    \u{u}   ŭ    \gtrless                                    ≷
+^9  ⁹    \fei  ϥ    \v\.S   Ṧ    \guarani                                    ₲
+^=  ⁼    \flq  ‹    \v\.s   ṧ    \hryvnia                                    ₴
+^A  ᴬ    \frq  ›    \vbar   │    \leadsto                                    ↝
+^B  ᴮ    \geq  ≥    \v{A}   Ǎ    \lessdot                                    ⋖
+^C  ꟲ    \ggg  ⋙    \v{C}   Č    \lessgtr                                    ≶
+^D  ᴰ    \glq  ‚    \v{D}   Ď    \lesssim                                    ≲
+^E  ᴱ    \grq  ‘    \v{E}   Ě    \lozenge                                    ✧
+^F  ꟳ    \iff  ⇔    \v{G}   Ǧ    \maltese                                    ✠
+^G  ᴳ    \int  ∫    \v{H}   Ȟ    \napprox                                    ≉
+^H  ᴴ    \kip  ₭    \v{I}   Ǐ    \natural                                    ♮
+^I  ᴵ    \k{}  ˛    \v{K}   Ǩ    \nearrow                                    ↗
+^J  ᴶ    \ldq  “    \v{L}   Ľ    \newline                                     
+^K  ᴷ    \leq  ≤    \v{N}   Ň    \nexists                                    ∄
+^L  ᴸ    \lhd  ◁    \v{O}   Ǒ    \nomisma                                    𐆎
+^M  ᴹ    \lll  ⋘    \v{R}   Ř    \npreceq                                    ⋠
+^N  ᴺ    \mho  ℧    \v{S}   Š    \nsubset                                    ⊄
+^O  ᴼ    \mid  ∣    \v{T}   Ť    \nsucceq                                    ⋡
+^P  ᴾ    \neg  ¬    \v{U}   Ǔ    \nsupset                                    ⊅
+^Q  ꟴ    \neq  ≠    \v{Z}   Ž    \nwarrow                                    ↖
+^R  ᴿ    \not  ̸     \v{a}   ǎ    \omicron                                    ο
+^T  ᵀ    \ohm  Ω    \v{c}   č    \partial                                    ∂
+^U  ᵁ    \par       \v{d}   ď    \phantom                                    ⟡
+^V  ⱽ    \per  ⅌    \v{e}   ě    \pilcrow                                    ¶
+^W  ᵂ    \phi  ϕ    \v{g}   ǧ    \ppprime                                    ‴
+^a  ᵃ    \psi  ψ    \v{h}   ȟ    \precsim                                    ≾
+^b  ᵇ    \qed  ∎    \v{i}   ǐ    \searrow                                    ↘
+^c  ᶜ    \rdq  ”    \v{j}   ǰ    \section                                    §
+^d  ᵈ    \rhd  ▷    \v{k}   ǩ    \sqrt[3]                                    ∛
+^e  ᵉ    \rho  ρ    \v{l}   ľ    \sqrt[4]                                    ∜
+^f  ᶠ    \san  ϻ    \v{n}   ň    \succsim                                    ≿
+^g  ᵍ    \sbs  ﹨   \v{o}   ǒ    \swarrow                                    ↙
+^h  ʰ    \sho  ϸ    \v{r}   ř    \textwon                                    ₩
+^i  ⁱ    \sim  ∼    \v{s}   š    \uparrow                                    ↑
+^j  ʲ    \som  ⃀    \v{t}   ť    \upsilon                                    υ
+^k  ᵏ    \sum  ∑    \v{u}   ǔ    \varbeta                                    ϐ
+^l  ˡ    \tau  τ    \v{z}   ž    \warning                                    ⚠
+^m  ᵐ    \top  ⊤    \zeta   ζ    ^\h hook                                    ʱ
+^n  ⁿ    \u{}  ˘    \~\"O   Ṏ    ^\open e                                    ᵋ
+^o  ᵒ    \vee  ∨    \~\"o   ṏ    ^\open o                                    ᵓ
+^p  ᵖ    \v{}  ˇ    \~\'O   Ṍ    \angstrom                                   Å
+^q  𐞥    \won  ₩    \~\'U   Ṹ    \approxeq                                   ≊
+^r  ʳ    \yen  ¥    \~\'o   ṍ    \backcong                                   ≌
+^s  ˢ    \~{}  ˜    \~\'u   ṹ    \barwedge                                   ⊼
+^t  ᵗ    ^\Ae  ᴭ    \~\=O   Ȭ    \bigoplus                                   ⨁
+^u  ᵘ    ^\Ou  ᴽ    \~\=o   ȭ    \bigsqcup                                   ⨆
+^v  ᵛ    ^\ae  𐞃    \~{A}   Ã    \biguplus                                   ⨄
+^w  ʷ    $\pm$ ±    \~{E}   Ẽ    \bigwedge                                   ⋀
+^x  ˣ    \"\'I Ḯ    \~{I}   Ĩ    \boxminus                                   ⊟
+^y  ʸ    \"\'U Ǘ    \~{N}   Ñ    \boxtimes                                   ⊠
+^z  ᶻ    \"\'i ḯ    \~{O}   Õ    \circledR                                   ®
+_(  ₍    \"\'u ǘ    \~{U}   Ũ    \circledS                                   Ⓢ
+_)  ₎    \"\=A Ǟ    \~{V}   Ṽ    \clubsuit                                   ♣
+_+  ₊    \"\=O Ȫ    \~{Y}   Ỹ    \cruzeiro                                   ₢
+_-  ₋    \"\=U Ǖ    \~{a}   ã    \curlyvee                                   ⋎
+_0  ₀    \"\=a ǟ    \~{e}   ẽ    \currency                                   ¤
+_1  ₁    \"\=o ȫ    \~{i}   ĩ    \diameter                                   ⌀
+_2  ₂    \"\=u ǖ    \~{n}   ñ    \division                                   ÷
+_3  ₃    \"\`U Ǜ    \~{o}   õ    \doteqdot                                   ≑
+_4  ₄    \"\`u ǜ    \~{u}   ũ    \emptyset                                   ∅
+_5  ₅    \"\vU Ǚ    \~{v}   ṽ    \geqslant                                   ≥
+_6  ₆    \"\vu ǚ    \~{y}   ỹ    \gnapprox                                   ⋧
+_7  ₇    \"{A} Ä    ^\ain   ᵜ    \hphantom                                   ⬄
+_8  ₈    \"{E} Ë    ^\chi   ᵡ    \intercal                                   ⊺
+_9  ₉    \"{H} Ḧ    ^\eng   ᵑ    \leqslant                                   ≤
+_=  ₌    \"{I} Ï    ^\esh   ᶴ    \llcorner                                   ⌞
+_a  ₐ    \"{O} Ö    ^\eth   ᶞ    \lnapprox                                   ⋦
+_e  ₑ    \"{U} Ü    ^\ezh   ᶾ    \lrcorner                                   ⌟
+_h  ₕ    \"{W} Ẅ    ^\phi   ᶲ    \multimap                                   ⊸
+_i  ᵢ    \"{X} Ẍ    ^{SM}   ℠    \parallel                                   ∥
+_j  ⱼ    \"{Y} Ÿ    ^{TM}   ™    \pppprime                                   ⁗
+_k  ₖ    \"{a} ä    $\div$  ÷    \precnsim                                   ⋨
+_l  ₗ    \"{e} ë    \'{\O}  Ǿ    \setminus                                   ∖
+_m  ₘ    \"{h} ḧ    \'{\o}  ǿ    \shortmid                                   ∣
+_n  ₙ    \"{i} ï    \={\i}  ī    \spesmilo                                   ₷
+_o  ₒ    \"{o} ö    \Alpha  Α    \sqsubset                                   ⊏
+_p  ₚ    \"{t} ẗ    \Delta  Δ    \sqsupset                                   ⊐
+_r  ᵣ    \"{u} ü    \Gamma  Γ    \subseteq                                   ⊆
+_s  ₛ    \"{w} ẅ    \Kappa  Κ    \succnsim                                   ⋩
+_t  ₜ    \"{x} ẍ    \Koppa  Ϟ    \supseteq                                   ⊇
+_u  ᵤ    \"{y} ÿ    \Lamda  Λ    \textbaht                                   ฿
+_v  ᵥ    \'\.S Ṥ    \Omega  Ω    \textdied                                   ✝
+_x  ₓ    \'\.s ṥ    \Sampi  Ϡ    \textlira                                   ₤
+--- —    \'\AE Ǽ    \Shima  Ϭ    \textpeso                                   ₱
+\"' “    \'\ae ǽ    \Sigma  Σ    \thicksim                                   ∼
+\"< «    \'{A} Á    \Theta  Θ    \triangle                                   ▵
+\"> »    \'{C} Ć    \Vdash  ⊩    \ulcorner                                   ⌜
+\"A Ä    \'{E} É    \^{\j}  ĵ    \underbar                                   ▁
+\"E Ë    \'{G} Ǵ    \above  ┴    \urcorner                                   ⌝
+\"H Ḧ    \'{I} Í    \aleph  ℵ    \varkappa                                   ϰ
+\"I Ï    \'{K} Ḱ    \alpha  α    \varprime                                   ′
+\"O Ö    \'{L} Ĺ    \amalg  ∐    \varsigma                                   ς
+\"U Ü    \'{M} Ḿ    \angle  ∠    \vartheta                                   ϑ
+\"W Ẅ    \'{N} Ń    \aoint  ∳    \vphantom                                   ⇳
+\"X Ẍ    \'{O} Ó    \asymp  ≍    ^\upsilon                                   ᶷ
+\"Y Ÿ    \'{P} Ṕ    \begin  〖   \Downarrow                                  ⇓
+\"` „    \'{R} Ŕ    \below  ┬    \Leftarrow                                  ⇐
+\"a ä    \'{S} Ś    \cdots  ⋯    \backprime                                  ‵
+\"e ë    \'{U} Ú    \close  ┤    \backsimeq                                  ⋍
+\"h ḧ    \'{W} Ẃ    \coint  ∲    \bigotimes                                  ⨂
+\"i ï    \'{Y} Ý    \colon  ₡    \biohazard                                  ☣
+\"o ö    \'{Z} Ź    \dashv  ⊣    \centerdot                                  ·
+\"t ẗ    \'{a} á    \dddot  ⃛     \checkmark                                  ✓
+\"u ü    \'{c} ć    \ddots  ⋱    \copyright                                  ©
+\"w ẅ    \'{e} é    \delta  δ    \dotsquare                                  ⊡
+\"x ẍ    \'{g} ǵ    \doteq  ≐    \downarrow                                  ↓
+\"y ÿ    \'{i} í    \equiv  ≡    \facsimile                                  ℻
+\'A Á    \'{k} ḱ    \frac1  ⅟    \gtrapprox                                  ≳
+\'C Ć    \'{l} ĺ    \frown  ⌢    \gtreqless                                  ⋛
+\'E É    \'{m} ḿ    \gamma  γ    \gvertneqq                                  ≩
+\'G Ǵ    \'{n} ń    \gimel  ℷ    \heartsuit                                  ♥
+\'I Í    \'{o} ó    \gneqq  ≩    \lambdabar                                  ƛ
+\'K Ḱ    \'{p} ṕ    \gnsim  ⋧    \leftarrow                                  ←
+\'L Ĺ    \'{r} ŕ    \iiint  ∭    \lesseqgtr                                  ⋚
+\'M Ḿ    \'{s} ś    \imath  ı    \llbracket                                  〚
+\'N Ń    \'{u} ú    \infty  ∞    \lvertneqq                                  ≨
+\'O Ó    \'{w} ẃ    \jmath  ȷ    \ngeqslant                                  ≱
+\'P Ṕ    \'{y} ý    \kappa  κ    \nleqslant                                  ≰
+\'R Ŕ    \'{z} ź    \koppa  ϟ    \nparallel                                  ∦
+\'S Ś    \.\=A Ǡ    \lamda  λ    \nshortmid                                  ∤
+\'U Ú    \.\=O Ȱ    \lceil  ⌈    \nsubseteq                                  ⊈
+\'W Ẃ    \.\=a ǡ    \ldata  《   \nsupseteq                                  ⊉
+\'Y Ý    \.\=o ȱ    \ldots  …    \octagonal                                  🛑
+\'Z Ź    \.{A} Ȧ    \lneqq  ≨    \overbrace                                  ⏞
+\'a á    \.{B} Ḃ    \lnsim  ⋦    \overparen                                  ⏜
+\'c ć    \.{C} Ċ    \manat  ₼    \paragraph                                  ¶
+\'e é    \.{D} Ḋ    \micro  µ    \pitchfork                                  ⋔
+\'g ǵ    \.{E} Ė    \minus  −    \rrbracket                                  〛
+\'i í    \.{F} Ḟ    \nabla  ∇    \spadesuit                                  ♠
+\'k ḱ    \.{G} Ġ    \naira  ₦    \subseteqq                                  ⊆
+\'l ĺ    \.{H} Ḣ    \ncong  ≇    \subsetneq                                  ⊊
+\'m ḿ    \.{I} İ    \ngeqq  ≱    \supseteqq                                  ⊇
+\'n ń    \.{M} Ṁ    \nleqq  ≰    \supsetneq                                  ⊋
+\'o ó    \.{N} Ṅ    \nless  ≮    \telephone                                  ℡
+\'p ṕ    \.{O} Ȯ    \notin  ∉    \textnaira                                  ₦
+\'r ŕ    \.{P} Ṗ    \nprec  ⊀    \therefore                                  ∴
+\'s ś    \.{R} Ṙ    \nsucc  ⊁    \triangleq                                  ≜
+\'u ú    \.{S} Ṡ    \oiint  ∯    \varpropto                                  ∝
+\'w ẃ    \.{T} Ṫ    \omega  ω    ^\Barred B                                  ᴯ
+\'y ý    \.{W} Ẇ    \oplus  ⊕    ^\barred o                                  ᶱ
+\'z ź    \.{X} Ẋ    \ounce  ℥    ^\script g                                  ᶢ
+\.A Ȧ    \.{Y} Ẏ    \pound  £    ^\turned a                                  ᵄ
+\.B Ḃ    \.{Z} Ż    \prcue  ≼    ^\turned h                                  ᶣ
+\.C Ċ    \.{a} ȧ    \prime  ′    ^\turned i                                  ᵎ
+\.D Ḋ    \.{b} ḃ    \ratio  ∶    ^\turned m                                  ᵚ
+\.E Ė    \.{c} ċ    \rceil  ⌉    ^\turned r                                  ʴ
+\.F Ḟ    \.{d} ḋ    \rdata  》   ^\turned v                                  ᶺ
+\.G Ġ    \.{e} ė    \rrect  ▢    ^\turned w                                  ꭩ
+\.H Ḣ    \.{f} ḟ    \ruble  ₽    ^\turned y                                  𐞠
+\.I İ    \.{g} ġ    \rupee  ₨    \Lleftarrow                                 ⇚
+\.M Ṁ    \.{h} ḣ    \sampi  ϡ    \Rightarrow                                 ⇒
+\.N Ṅ    \.{m} ṁ    \sharp  ♯    \circledast                                 ⊛
+\.O Ȯ    \.{n} ṅ    \shima  ϭ    \complement                                 ∁
+\.P Ṗ    \.{o} ȯ    \sigma  σ    \curlywedge                                 ⋏
+\.R Ṙ    \.{p} ṗ    \simeq  ≃    \eqslantgtr                                 ⋝
+\.S Ṡ    \.{r} ṙ    \smash  ⬍    \gtreqqless                                 ⋛
+\.T Ṫ    \.{s} ṡ    \smile  ⌣    \lessapprox                                 ≲
+\.W Ẇ    \.{t} ṫ    \sqcap  ⊓    \lesseqqgtr                                 ⋚
+\.X Ẋ    \.{w} ẇ    \sqcup  ⊔    \longmapsto                                 ⟼
+\.Y Ẏ    \.{x} ẋ    \tenge  ₸    \mathscr{I}                                 ℐ
+\.Z Ż    \.{y} ẏ    \theta  θ    \nLeftarrow                                 ⇍
+\.a ȧ    \.{z} ż    \times  ×    \nleftarrow                                 ↚
+\.b ḃ    \=\"U Ṻ    \uplus  ⊎    \nsubseteqq                                 ⊈
+\.c ċ    \=\"u ṻ    \u{\i}  ĭ    \nsupseteqq                                 ⊉
+\.d ḋ    \=\'E Ḗ    \vDash  ⊨    \precapprox                                 ≾
+\.e ė    \=\'O Ṓ    \varpi  ϖ    \prohibited                                 🛇
+\.f ḟ    \=\'e ḗ    \vdash  ⊢    \registered                                 ®
+\.g ġ    \=\'o ṓ    \vdots  ⋮    \rightarrow                                 →
+\.h ḣ    \=\AE Ǣ    \v{\i}  ǐ    \smallamalg                                 ∐
+\.m ṁ    \=\`E Ḕ    \v{\j}  ǰ    \smallsmile                                 ⌣
+\.n ṅ    \=\`O Ṑ    \wedge  ∧    \sqsubseteq                                 ⊑
+\.o ȯ    \=\`e ḕ    \~{\i}  ĩ    \sqsupseteq                                 ⊒
+\.p ṗ    \=\`o ṑ    ^\beta  ᵝ    \subsetneqq                                 ⊊
+\.r ṙ    \=\ae ǣ    ^\heng  ꭜ    \succapprox                                 ≿
+\.s ṡ    \={A} Ā    ^\iota  ᶥ    \supsetneqq                                 ⊋
+\.t ṫ    \={E} Ē    ^\lezh  𐞞    \textlquill                                 ⁅
+\.w ẇ    \={G} Ḡ    ^{TEL}  ℡    \textnumero                                 №
+\.x ẋ    \={I} Ī    $\cdot$ ·    \textrecipe                                 ℞
+\.y ẏ    \={O} Ō    \"\'{I} Ḯ    \textrquill                                 ⁆
+\.z ż    \={U} Ū    \"\'{U} Ǘ    \underbrace                                 ⏟
+\=A Ā    \={Y} Ȳ    \"\'{i} ḯ    \underparen                                 ⏝
+\=E Ē    \={a} ā    \"\'{u} ǘ    \upuparrows                                 ⇈
+\=G Ḡ    \={e} ē    \"\={A} Ǟ    \varepsilon                                 ε
+\=I Ī    \={g} ḡ    \"\={O} Ȫ    ^\capital b                                 𐞄
+\=O Ō    \={i} ī    \"\={U} Ǖ    ^\capital g                                 𐞒
+\=U Ū    \={o} ō    \"\={a} ǟ    ^\capital h                                 𐞖
+\=Y Ȳ    \={u} ū    \"\={o} ȫ    ^\capital i                                 ᶦ
+\=a ā    \={y} ȳ    \"\={u} ǖ    ^\capital l                                 ᶫ
+\=e ē    \Beta Β    \"\`{U} Ǜ    ^\capital n                                 ᶰ
+\=g ḡ    \Heta Ͱ    \"\`{u} ǜ    ^\capital r                                 𐞪
+\=i ī    \Hori Ϩ    \"\v{U} Ǚ    ^\capital u                                 ᶸ
+\=o ō    \H{O} Ő    \"\v{u} ǚ    ^\capital y                                 𐞲
+\=u ū    \H{U} Ű    \'\.{S} Ṥ    ^\greek phi                                 ᵠ
+\=y ȳ    \H{o} ő    \'\.{s} ṥ    ^\rams horn                                 𐞑
+\AA Å    \H{u} ű    \'{\AE} Ǽ    ^\turned ae                                 ᵆ
+\AE Æ    \Iota Ι    \'{\ae} ǽ    \Rrightarrow                                ⇛
+\DH Ð    \Join ⋈    \.\={A} Ǡ    \Updownarrow                                ⇕
+\Dd ⅅ    \Khei Ϧ    \.\={O} Ȱ    \backepsilon                                ∍
+\HO Ő    \Shei Ϣ    \.\={a} ǡ    \blacksmiley                                ☻
+\HU Ű    \U{o} ő    \.\={o} ȱ    \blacksquare                                ▪
+\Ho ő    \Vert ‖    \=\"{U} Ṻ    \circledcirc                                ⊚
+\Hu ű    \Zeta Ζ    \=\"{u} ṻ    \circleddash                                ⊝
+\Im ℑ    \^\'A Ấ    \=\'{E} Ḗ    \curlyeqprec                                ⋞
+\Ll ⋘    \^\'E Ế    \=\'{O} Ṓ    \curlyeqsucc                                ⋟
+\Mu Μ    \^\'O Ố    \=\'{e} ḗ    \curlypreceq                                ≼
+\Nu Ν    \^\'a ấ    \=\'{o} ṓ    \diamondsuit                                ♢
+\OE Œ    \^\'e ế    \=\`{E} Ḕ    \eqslantless                                ⋜
+\Pi Π    \^\'o ố    \=\`{O} Ṑ    \nRightarrow                                ⇏
+\Re ℜ    \^\`A Ầ    \=\`{e} ḕ    \nrightarrow                                ↛
+\TH Þ    \^\`E Ề    \=\`{o} ṑ    \ordfeminine                                ª
+\Uo ő    \^\`O Ồ    \={\AE} Ǣ    \partnership                                ㉐
+\Xi Ξ    \^\`a ầ    \={\ae} ǣ    \precnapprox                                ⋨
+\^A Â    \^\`e ề    \Bbb{1} 𝟙    \radioactive                                ☢
+\^C Ĉ    \^\`o ồ    \Bbb{2} 𝟚    \straightphi                                φ
+\^E Ê    \^\~A Ẫ    \Bbb{A} 𝔸    \succcurlyeq                                ≽
+\^G Ĝ    \^\~E Ễ    \Bbb{B} 𝔹    \succnapprox                                ⋩
+\^H Ĥ    \^\~O Ỗ    \Bbb{C} ℂ    \thickapprox                                ≈
+\^I Î    \^\~a ẫ    \Bbb{D} 𝔻    \uncertainty                                ⯑
+\^J Ĵ    \^\~e ễ    \Bbb{E} 𝔼    \updownarrow                                ↕
+\^O Ô    \^\~o ỗ    \Bbb{F} 𝔽    ^\Reversed E                                ᴲ
+\^S Ŝ    \^{A} Â    \Bbb{G} 𝔾    ^\Reversed N                                ᴻ
+\^U Û    \^{C} Ĉ    \Bbb{H} ℍ    ^\capital aa                                𐞀
+\^W Ŵ    \^{E} Ê    \Bbb{I} 𝕀    ^\capital oe                                𐞣
+\^Y Ŷ    \^{G} Ĝ    \Bbb{J} 𝕁    ^\dz digraph                                𐞇
+\^Z Ẑ    \^{H} Ĥ    \Bbb{K} 𝕂    ^\ls digraph                                𐞙
+\^a â    \^{I} Î    \Bbb{L} 𝕃    ^\lz digraph                                𐞚
+\^c ĉ    \^{J} Ĵ    \Bbb{M} 𝕄    ^\reversed e                                𐞎
+\^e ê    \^{O} Ô    \Bbb{N} ℕ    ^\sideways u                                ᵙ
+\^g ĝ    \^{S} Ŝ    \Bbb{O} 𝕆    ^\top half o                                ᵔ
+\^h ĥ    \^{U} Û    \Bbb{P} ℙ    ^\ts digraph                                𐞬
+\^i î    \^{W} Ŵ    \Bbb{Q} ℚ    \blacklozenge                               ✦
+\^j ĵ    \^{Y} Ŷ    \Bbb{R} ℝ    \construction                               🚧
+\^o ô    \^{Z} Ẑ    \Bbb{S} 𝕊    \ordmasculine                               º
+\^s ŝ    \^{a} â    \Bbb{T} 𝕋    \risingdotseq                               ≓
+\^u û    \^{c} ĉ    \Bbb{U} 𝕌    \textcircledP                               ℗
+\^w ŵ    \^{e} ê    \Bbb{V} 𝕍    \textdiscount                               ⁒
+\^y ŷ    \^{g} ĝ    \Bbb{W} 𝕎    \triangledown                               ▿
+\^z ẑ    \^{h} ĥ    \Bbb{X} 𝕏    \triangleleft                               ◃
+\`A À    \^{i} î    \Bbb{Y} 𝕐    ^\b with hook                               𐞅
+\`E È    \^{j} ĵ    \Bbb{Z} ℤ    ^\c with curl                               ᶝ
+\`I Ì    \^{o} ô    \Bumpeq ≎    ^\d with hook                               𐞌
+\`N Ǹ    \^{s} ŝ    \Frowny ☹    ^\d with tail                               𐞋
+\`O Ò    \^{u} û    \Gangia Ϫ    ^\g with hook                               𐞓
+\`U Ù    \^{w} ŵ    \Lambda Λ    ^\greek gamma                               ᵞ
+\`W Ẁ    \^{y} ŷ    \Letter ✉    ^\h with hook                               ʱ
+\`Y Ỳ    \^{z} ẑ    \Smiley ☺    ^\l with belt                               𐞛
+\`a à    \`{A} À    \Stigma Ϛ    ^\ligature oe                               ꟹ
+\`e è    \`{E} È    \Subset ⋐    ^\m with hook                               ᶬ
+\`i ì    \`{I} Ì    \Supset ⋑    ^\r with tail                               𐞨
+\`n ǹ    \`{N} Ǹ    \Vvdash ⊪    ^\s with curl                               𐞺
+\`o ò    \`{O} Ò    \^\'{A} Ấ    ^\s with hook                               ᶳ
+\`u ù    \`{U} Ù    \^\'{E} Ế    ^\v with hook                               ᶹ
+\`w ẁ    \`{W} Ẁ    \^\'{O} Ố    ^\z with curl                               ᶽ
+\`y ỳ    \`{Y} Ỳ    \^\'{a} ấ    \Longleftarrow                              ⇐
+\aa å    \`{a} à    \^\'{e} ế    \bigtriangleup                              △
+\ae æ    \`{e} è    \^\'{o} ố    \blacktriangle                              ▴
+\cC Ç    \`{i} ì    \^\`{A} Ầ    \divideontimes                              ⋇
+\cD Ḑ    \`{n} ǹ    \^\`{E} Ề    \fallingdotseq                              ≒
+\cE Ȩ    \`{o} ò    \^\`{O} Ồ    \hookleftarrow                              ↩
+\cG Ģ    \`{u} ù    \^\`{a} ầ    \leftarrowtail                              ↢
+\cH Ḩ    \`{w} ẁ    \^\`{e} ề    \leftharpoonup                              ↼
+\cK Ķ    \`{y} ỳ    \^\`{o} ồ    \longleftarrow                              ⟵
+\cL Ļ    \atop ¦    \^\d{A} Ậ    \looparrowleft                              ↫
+\cN Ņ    \beta β    \^\d{E} Ệ    \measuredangle                              ∡
+\cR Ŗ    \beth ℶ    \^\d{O} Ộ    \ntriangleleft                              ⋪
+\cS Ş    \c\'C Ḉ    \^\d{a} ậ    \shortparallel                              ∥
+\cT Ţ    \c\'c ḉ    \^\d{e} ệ    \smallsetminus                              ∖
+\cc ç    \c\uE Ḝ    \^\d{o} ộ    \textbigcircle                              ⃝
+\cd ḑ    \c\ue ḝ    \^\~{A} Ẫ    \textestimated                              ℮
+\ce ȩ    \cdot ·    \^\~{E} Ễ    \triangleright                              ▹
+\cg ģ    \cedi ₵    \^\~{O} Ỗ    \upleftharpoon                              ↿
+\ch ḩ    \cent ¢    \^\~{a} ẫ    ^\closed omega                              𐞤
+\ck ķ    \circ ∘    \^\~{e} ễ    ^\dezh digraph                              𐞊
+\cl ļ    \cong ≅    \^\~{o} ỗ    ^\feng digraph                              𐞐
+\cn ņ    \c{C} Ç    \approx ≈    ^\tesh digraph                              𐞮
+\cr ŗ    \c{D} Ḑ    \asmash ⬆    ^\turned alpha                              ᶛ
+\cs ş    \c{E} Ȩ    \bigcap ⋂    \Leftrightarrow                             ⇔
+\ct ţ    \c{G} Ģ    \bigcup ⋃    \Longrightarrow                             ⇒
+\dd ⅆ    \c{H} Ḩ    \bigvee ⋁    \curvearrowleft                             ↶
+\dh ð    \c{K} Ķ    \bowtie ⋈    \downdownarrows                             ⇊
+\ee ⅇ    \c{L} Ļ    \bullet •    \hookrightarrow                             ↪
+\ge ≥    \c{N} Ņ    \bumpeq ≏    \leftleftarrows                             ⇇
+\gg ≫    \c{R} Ŗ    \c\'{C} Ḉ    \leftrightarrow                             ↔
+\ii ⅈ    \c{S} Ş    \c\'{c} ḉ    \leftthreetimes                             ⋋
+\in ∈    \c{T} Ţ    \c\u{E} Ḝ    \longrightarrow                             ⟶
+\jj ⅉ    \c{c} ç    \c\u{e} ḝ    \looparrowright                             ↬
+\kA Ą    \c{d} ḑ    \circeq ≗    \multiplication                             ×
+\kE Ę    \c{e} ȩ    \coprod ∐    \nshortparallel                             ∦
+\kI Į    \c{g} ģ    \d\.{S} Ṩ    \ntriangleright                             ⋫
+\kO Ǫ    \c{h} ḩ    \d\.{s} ṩ    \rightarrowtail                             ↣
+\kU Ų    \c{k} ķ    \d\={L} Ḹ    \rightharpoonup                             ⇀
+\ka ą    \c{l} ļ    \d\={R} Ṝ    \sphericalangle                             ∢
+\ke ę    \c{n} ņ    \d\={l} ḹ    \textopenbullet                             ◦
+\ki į    \c{r} ŗ    \d\={r} ṝ    \trianglelefteq                             ⊴
+\ko ǫ    \c{s} ş    \dagger †    \uprightharpoon                             ↾
+\ku ų    \c{t} ţ    \daleth ℸ    ^\H With Stroke                             ꟸ
+\le ≤    \d\.S Ṩ    \ddddot ⃜     ^\bottom half o                             ᵕ
+\ll ≪    \d\.s ṩ    \degree °    ^\h with stroke                             𐞕
+\lq ‘    \d\=L Ḹ    \dsmash ⬇    ^\i with stroke                             ᶤ
+\mp ∓    \d\=R Ṝ    \eqcirc ≖    ^\o with stroke                             𐞢
+\mu μ    \d\=l ḹ    \exists ∃    ^\turned open e                             ᵌ
+\ne ≠    \d\=r ṝ    \female ♀    ^\turned r hook                             ʵ
+\ni ∋    \ddag ‡    \forall ∀    \bigtriangledown                            ▽
+\nu ν    \defs ≙    \frac12 ½    \circlearrowleft                            ↺
+\oe œ    \dong ₫    \frac13 ⅓    \curvearrowright                            ↷
+\pi π    \d{A} Ạ    \frac14 ¼    \downleftharpoon                            ⇃
+\pm ±    \d{B} Ḅ    \frac15 ⅕    \leftharpoondown                            ↽
+\rq ’    \d{D} Ḍ    \frac16 ⅙    \leftrightarrows                            ⇆
+\ss ß    \d{E} Ẹ    \frac18 ⅛    \nLeftrightarrow                            ⇎
+\th þ    \d{H} Ḥ    \frac23 ⅔    \nleftrightarrow                            ↮
+\to →    \d{I} Ị    \frac25 ⅖    \ntrianglelefteq                            ⋬
+\uA Ă    \d{K} Ḳ    \frac34 ¾    \rightleftarrows                            ⇄
+\uE Ĕ    \d{L} Ḷ    \frac35 ⅗    \rightthreetimes                            ⋌
+\uG Ğ    \d{M} Ṃ    \frac38 ⅜    \squigarrowright                            ⇝
+\uI Ĭ    \d{N} Ṇ    \frac45 ⅘    \textinterrobang                            ‽
+\uO Ŏ    \d{O} Ọ    \frac56 ⅚    \textmusicalnote                            ♪
+\uU Ŭ    \d{R} Ṛ    \frac58 ⅝    \trianglerighteq                            ⊵
+\ua ă    \d{S} Ṣ    \frac78 ⅞    \vartriangleleft                            ⊲
+\ue ĕ    \d{T} Ṭ    \gangia ϫ    ^\heng with hook                            𐞗
+\ug ğ    \d{U} Ụ    \gtrdot ⋗    \circlearrowright                           ↻
+\ui ĭ    \d{V} Ṿ    \gtrsim ≳    \downrightharpoon                           ⇂
+\uo ŏ    \d{W} Ẉ    \hsmash ⬌    \ntrianglerighteq                           ⋭
+\uu ŭ    \d{Y} Ỵ    \iiiint ⨌    \rightharpoondown                           ⇁
+\vA Ǎ    \d{Z} Ẓ    \k\={O} Ǭ    \rightrightarrows                           ⇉
+\vC Č    \d{a} ạ    \k\={o} ǭ    \twoheadleftarrow                           ↞
+\vD Ď    \d{b} ḅ    \kelvin K    \vartriangleright                           ⊳
+\vE Ě    \d{d} ḍ    \lambda λ    ^\r with fishhook                           𐞩
+\vG Ǧ    \d{e} ẹ    \langle ⟨    ^\reversed open e                           ᶟ
+\vH Ȟ    \d{h} ḥ    \lfloor ⌊    \blacktriangledown                          ▾
+\vI Ǐ    \d{i} ị    \ltimes ⋉    \blacktriangleleft                          ◂
+\vK Ǩ    \d{k} ḳ    \mapsto ↦    \leftrightharpoons                          ⇋
+\vL Ľ    \d{l} ḷ    \models ⊧    \rightleftharpoons                          ⇌
+\vN Ň    \d{m} ṃ    \nVDash ⊯    \textcolonmonetary                          ₡
+\vO Ǒ    \d{n} ṇ    \nVdash ⊮    \textreferencemark                          ※
+\vR Ř    \d{o} ọ    \nequiv ≢    \twoheadrightarrow                          ↠
+\vS Š    \d{r} ṛ    \nsimeq ≄    ^\n with left hook                          ᶮ
+\vT Ť    \d{s} ṣ    \numero №    ^\u with left hook                          ꭟ
+\vU Ǔ    \d{t} ṭ    \nvDash ⊭    \Longleftrightarrow                         ⇔
+\vZ Ž    \d{u} ụ    \nvdash ⊬    \blacktriangleright                         ▸
+\va ǎ    \d{v} ṿ    \oiiint ∰    \longleftrightarrow                         ⟷
+\vc č    \d{w} ẉ    \ominus ⊖    \textpertenthousand                         ‱
+\vd ď    \d{y} ỵ    \oslash ⊘    ^\v with right hook                         𐞰
+\ve ě    \d{z} ẓ    \otimes ⊗    \leftrightsquigarrow                        ↭
+\vg ǧ    \euro €    \permil ‰    \textfractionsolidus                        ⁄
+\vh ȟ    \flat ♭    \peseta ₧    ^\capital inverted r                        ʶ
+\vi ǐ    \flqq «    \pounds £    ^\turned r with hook                        ʵ
+\vj ǰ    \frqq »    \pprime ″    ^\turned y with belt                        𐞡
+\vk ǩ    \geqq ≧    \preceq ≼    ^\capital g with hook                       𐞔
+\vl ľ    \gets ←    \propto ∝    ^\capital l with belt                       𐞜
+\vn ň    \glqq „    \rangle ⟩    ^\j with crossed-tail                       ᶨ
+\vo ǒ    \gneq ≩    \rddots ⋰    ^\l with middle tilde                       ꭞ
+\vr ř    \grqq “    \rfloor ⌋    ^\l with palatal hook                       ᶪ
+\vs š    \hbar ℏ    \rtimes ⋊    ^\t with palatal hook                       ᶵ
+\vt ť    \heta ͱ    \square □    ^\d with hook and tail                      𐞍
+\vu ǔ    \hori ϩ    \stigma ϛ    ^\dz digraph with curl                      𐞉
+\vz ž    \iint ∬    \subset ⊂    ^\tc digraph with curl                      𐞫
+\wp ℘    \iota ι    \succeq ≽    ^\capital i with stroke                     ᶧ
+\wr ≀    \k\=O Ǭ    \supset ⊃    ^\dotless j with stroke                     ᶡ
+\xi ξ    \k\=o ǭ    \textmu µ    ^\l with retroflex hook                     ᶩ
+\~A Ã    \khei ϧ    \tugrik ₮    ^\n with retroflex hook                     ᶯ
+\~E Ẽ    \k{A} Ą    \u\'{A} Ắ    ^\reversed glottal stop                     ˤ
+\~I Ĩ    \k{E} Ę    \u\'{a} ắ    ^\t with retroflex hook                     𐞯
+\~N Ñ    \k{I} Į    \u\`{A} Ằ    ^\z with retroflex hook                     ᶼ
+\~O Õ    \k{O} Ǫ    \u\`{a} ằ    ^\closed reversed open e                    𐞏
+\~U Ũ    \k{U} Ų    \u\d{A} Ặ    ^\l with inverted lazy s                    ꭝ
+\~V Ṽ    \k{a} ą    \u\d{a} ặ    ^\turned m with long leg                    ᶭ
+\~Y Ỹ    \k{e} ę    \u\~{A} Ẵ    ^\turned r with long leg                    𐞦
+\~a ã    \k{i} į    \u\~{a} ẵ    ^\lezh with retroflex hook                  𐞟
+\~e ẽ    \k{o} ǫ    \v\.{S} Ṧ    ^\dotless j with stroke and hook            𐞘
+\~i ĩ    \k{u} ų    \v\.{s} ṧ    ^\dz digraph with retroflex hook            𐞈
+\~n ñ    \lari ₾    \varkai ϗ    ^\l with retroflex hook and belt            𐞝
+\~o õ    \ldiv ∕    \varphi φ    ^\ts digraph with retroflex hook            𐞭
+\~u ũ    \leqq ≦    \varrho ϱ    ^\turned r with long leg and retroflex hook 𐞧
+\~v ṽ    \lira ₤    \veebar ⊻

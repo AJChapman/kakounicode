@@ -1,0 +1,372 @@
+\        \Bb 𝐛    \_1 ₁    \uu  ŭ    \MIE 𝑬    \Miw  𝑤    \"{h} ḧ    \and= ≙    \v{K}   Ǩ    \=\`{e}  ḕ    \between    ≬    \succapprox                                  ≿
+\%  ％   \Bc 𝐜    \_2 ₂    \vA  Ǎ    \MIF 𝑭    \Mix  𝑥    \"{i} ï    \atop ¦    \v{L}   Ľ    \=\`{o}  ṑ    \bigcirc    ◯    \supsetneqq                                  ⊋
+\+  ＋   \Bd 𝐝    \_3 ₃    \vC  Č    \MIG 𝑮    \Miy  𝑦    \"{o} ö    \beta β    \v{N}   Ň    \={\AE}  Ǣ    \bigodot    ⨀    \textlquill                                  ⁅
+\-  ­    \Be 𝐞    \_4 ₄    \vD  Ď    \MIH 𝑯    \Miz  𝑧    \"{t} ẗ    \beth ℶ    \v{O}   Ǒ    \={\ae}  ǣ    \bigstar    ★    \textnumero                                  №
+\0  ∅    \Bf 𝐟    \_5 ₅    \vE  Ě    \MII 𝑰    \Phi  Φ    \"{u} ü    \box' ⍞    \v{R}   Ř    \Bbb{1}  𝟙    \bitcoin    ₿    \textrecipe                                  ℞
+\@  ＠   \Bg 𝐠    \_6 ₆    \vG  Ǧ    \MIJ 𝑱    \Psi  Ψ    \"{w} ẅ    \box/ ⍁    \v{S}   Š    \Bbb{2}  𝟚    \boxcomp    ⌻    \textrquill                                  ⁆
+\C  ∁    \Bh 𝐡    \_7 ₇    \vH  Ȟ    \MIK 𝑲    \Rho  Ρ    \"{x} ẍ    \box: ⍠    \v{T}   Ť    \Bbb{A}  𝔸    \boxplus    ⊞    \underbrace                                  ⏟
+\H  ̋     \Bi 𝐢    \_8 ₈    \vI  Ǐ    \MIL 𝑳    \Rsh  ↱    \"{y} ÿ    \box< ⍃    \v{U}   Ǔ    \Bbb{B}  𝔹    \caution    ☡    \underparen                                  ⏝
+\I  ⋂    \Bj 𝐣    \_9 ₉    \vK  Ǩ    \MIM 𝑴    \San  Ϻ    \'\.S Ṥ    \box= ⌸    \v{Z}   Ž    \Bbb{C}  ℂ    \celsius    ℃    \upuparrows                                  ⇈
+\L  Ł    \Bk 𝐤    \_= ₌    \vL  Ľ    \MIN 𝑵    \Sho  Ϸ    \'\.s ṥ    \box> ⍄    \v{a}   ǎ    \Bbb{D}  𝔻    \coloneq    ≔    \varepsilon                                  ε
+\O  Ø    \Bl 𝐥    \__ ＿   \vN  Ň    \MIO 𝑶    \Tau  Τ    \'\AE Ǽ    \box? ⍰    \v{c}   č    \Bbb{E}  𝔼    \ddagger    ‡    \Rrightarrow                                 ⇛
+\P  ¶    \Bm 𝐦    \_a ₐ    \vO  Ǒ    \MIP 𝑷    \Yot  Ϳ    \'\ae ǽ    \boxO ⌼    \v{d}   ď    \Bbb{F}  𝔽    \diamond    ⋄    \Updownarrow                                 ⇕
+\S  §    \Bn 𝐧    \_e ₑ    \vR  Ř    \MIQ 𝑸    \^Gb  ᵝ    \'{A} Á    \box\ ⍂    \v{e}   ě    \Bbb{G}  𝔾    \digamma    ϝ    \^\capital b                                 𐞄
+\^  ̂     \Bo 𝐨    \_h ₕ    \vS  Š    \MIR 𝑹    \^Gc  ᵡ    \'{C} Ć    \boxd ⍗    \v{g}   ǧ    \Bbb{H}  ℍ    \dotplus    ∔    \^\capital g                                 𐞒
+\k  ̨     \Bp 𝐩    \_i ᵢ    \vT  Ť    \MIS 𝑺    \^Gd  ᵟ    \'{E} É    \boxl ⍇    \v{h}   ȟ    \Bbb{I}  𝕀    \drachma    ₯    \^\capital h                                 𐞖
+\v  ̌     \Bq 𝐪    \_j ⱼ    \vU  Ǔ    \MIT 𝑻    \^Ge  ᵋ    \'{G} Ǵ    \boxo ⌻    \v{i}   ǐ    \Bbb{J}  𝕁    \epsilon    ϵ    \^\capital i                                 ᶦ
+\x  ×    \Br 𝐫    \_k ₖ    \vZ  Ž    \MIU 𝑼    \^Gf  ᵠ    \'{I} Í    \boxr ⍈    \v{j}   ǰ    \Bbb{K}  𝕂    \eqarray    █    \^\capital l                                 ᶫ
+\|  ∣    \Bs 𝐬    \_l ₗ    \va  ǎ    \MIV 𝑽    \^Gg  ᵞ    \'{K} Ḱ    \boxu ⍐    \v{k}   ǩ    \Bbb{L}  𝕃    \eqcolon    ≕    \^\capital n                                 ᶰ
+\!! ‼    \Bt 𝐭    \_m ₘ    \vc  č    \MIW 𝑾    \^a_  ª    \'{L} Ĺ    \c\'C Ḉ    \v{l}   ľ    \Bbb{M}  𝕄    \gtrless    ≷    \^\capital r                                 𐞪
+\!? ⁉    \Bu 𝐮    \_n ₙ    \vd  ď    \MIX 𝑿    \^l-  ⃖     \'{M} Ḿ    \c\'c ḉ    \v{n}   ň    \Bbb{N}  ℕ    \guarani    ₲    \^\capital u                                 ᶸ
+\"' “    \Bv 𝐯    \_o ₒ    \ve  ě    \MIY 𝒀    \^lr  ⃡     \'{N} Ń    \c\uE Ḝ    \v{o}   ǒ    \Bbb{O}  𝕆    \hryvnia    ₴    \^\capital y                                 𐞲
+\"< «    \Bw 𝐰    \_p ₚ    \vg  ǧ    \MIZ 𝒁    \^o_  º    \'{O} Ó    \c\ue ḝ    \v{r}   ř    \Bbb{P}  ℙ    \leadsto    ↝    \^\greek phi                                 ᵠ
+\"> »    \Bx 𝐱    \_r ᵣ    \vh  ȟ    \MIa 𝒂    \^r-  ⃗     \'{P} Ṕ    \cdot ·    \v{s}   š    \Bbb{Q}  ℚ    \lessdot    ⋖    \^\rams horn                                 𐞑
+\"A Ä    \By 𝐲    \_s ₛ    \vi  ǐ    \MIb 𝒃    \_Gb  ᵦ    \'{R} Ŕ    \cedi ₵    \v{t}   ť    \Bbb{R}  ℝ    \lessgtr    ≶    \^\turned ae                                 ᵆ
+\"E Ë    \Bz 𝐳    \_t ₜ    \vj  ǰ    \MIc 𝒄    \_Gc  ᵪ    \'{S} Ś    \cent ¢    \v{u}   ǔ    \Bbb{S}  𝕊    \lesssim    ≲    \backepsilon                                 ∍
+\"H Ḧ    \DH Ð    \_u ᵤ    \vk  ǩ    \MId 𝒅    \_Gf  ᵩ    \'{U} Ú    \ci.. ◌    \v{z}   ž    \Bbb{T}  𝕋    \lozenge    ✧    \blacksmiley                                 ☻
+\"I Ï    \Dd ⅅ    \_x ₓ    \vl  ľ    \MIe 𝒆    \_Gg  ᵧ    \'{W} Ẃ    \circ ∘    \zeta   ζ    \Bbb{U}  𝕌    \maltese    ✠    \blacksquare                                 ▪
+\"O Ö    \F0 ０   \_~ ̰     \vn  ň    \MIf 𝒇    \_Gr  ᵨ    \'{Y} Ý    \comp ∘    \||-n   ⊮    \Bbb{V}  𝕍    \napprox    ≉    \circledcirc                                 ⊚
+\"U Ü    \F1 １   \`A À    \vo  ǒ    \MIg 𝒈    \_lr  ͍     \'{Z} Ź    \cong ≅    \||=n   ⊯    \Bbb{W}  𝕎    \natural    ♮    \circleddash                                 ⊝
+\"W Ẅ    \F2 ２   \`E È    \vr  ř    \MIh 𝒉    \all  ∀    \'{a} á    \c{C} Ç    \|||-   ⊪    \Bbb{X}  𝕏    \nearrow    ↗    \curlyeqprec                                 ⋞
+\"X Ẍ    \F3 ３   \`I Ì    \vs  š    \MIi 𝒊    \and  ∧    \'{c} ć    \c{D} Ḑ    \~\"O   Ṏ    \Bbb{Y}  𝕐    \newline         \curlyeqsucc                                 ⋟
+\"Y Ÿ    \F4 ４   \`N Ǹ    \vt  ť    \MIj 𝒋    \ast  ∗    \'{e} é    \c{E} Ȩ    \~\"o   ṏ    \Bbb{Z}  ℤ    \nexists    ∄    \curlypreceq                                 ≼
+\"` „    \F5 ５   \`O Ò    \vu  ǔ    \MIk 𝒌    \bGG  ℾ    \'{g} ǵ    \c{G} Ģ    \~\'O   Ṍ    \Bumpeq  ≎    \nomisma    𐆎    \diamondsuit                                 ♢
+\"a ä    \F6 ６   \`U Ù    \vz  ž    \MIl 𝒍    \bGP  ℿ    \'{i} í    \c{H} Ḩ    \~\'U   Ṹ    \Frowny  ☹    \npreceq    ⋠    \eqslantless                                 ⋜
+\"e ë    \F7 ７   \`W Ẁ    \wp  ℘    \MIm 𝒎    \bGS  ⅀    \'{k} ḱ    \c{K} Ķ    \~\'o   ṍ    \Gangia  Ϫ    \nsubset    ⊄    \nRightarrow                                 ⇏
+\"h ḧ    \F8 ８   \`Y Ỳ    \wr  ≀    \MIn 𝒏    \bGg  ℽ    \'{l} ĺ    \c{L} Ļ    \~\'u   ṹ    \Lambda  Λ    \nsucceq    ⋡    \nrightarrow                                 ↛
+\"i ï    \F9 ９   \`a à    \xi  ξ    \MIo 𝒐    \bGp  ℼ    \'{m} ḿ    \c{N} Ņ    \~\=O   Ȭ    \Letter  ✉    \nsupset    ⊅    \ordfeminine                                 ª
+\"o ö    \FA Ａ   \`e è    \z:  ⦂    \MIp 𝒑    \bot  ⊥    \'{n} ń    \c{R} Ŗ    \~\=o   ȭ    \Smiley  ☺    \nwarrow    ↖    \partnership                                 ㉐
+\"t ẗ    \FB Ｂ   \`i ì    \{{  ⦃    \MIq 𝒒    \bra  ⟨    \'{o} ó    \c{S} Ş    \~{A}   Ã    \Stigma  Ϛ    \omicron    ο    \precnapprox                                 ⋨
+\"u ü    \FC Ｃ   \`n ǹ    \|)  ⦈    \MIr 𝒓    \bub  •    \'{p} ṕ    \c{T} Ţ    \~{E}   Ẽ    \Subset  ⋐    \partial    ∂    \radioactive                                 ☢
+\"w ẅ    \FD Ｄ   \`o ò    \|-  ⊢    \MIs 𝒔    \but  ‣    \'{r} ŕ    \c{c} ç    \~{I}   Ĩ    \Supset  ⋑    \phantom    ⟡    \straightphi                                 φ
+\"x ẍ    \FE Ｅ   \`u ù    \|=  ⊨    \MIt 𝒕    \buw  ◦    \'{s} ś    \c{d} ḑ    \~{N}   Ñ    \Vvdash  ⊪    \pilcrow    ¶    \succcurlyeq                                 ≽
+\"y ÿ    \FF Ｆ   \`w ẁ    \|>  ⦊    \MIu 𝒖    \cap  ∩    \'{u} ú    \c{e} ȩ    \~{O}   Õ    \^\'{A}  Ấ    \ppprime    ‴    \succnapprox                                 ⋩
+\'A Á    \FG Ｇ   \`y ỳ    \|n  ∤    \MIv 𝒗    \chi  χ    \'{w} ẃ    \c{g} ģ    \~{U}   Ũ    \^\'{E}  Ế    \precsim    ≾    \thickapprox                                 ≈
+\'C Ć    \FH Ｈ   \aa å    \||  ∥    \MIw 𝒘    \ci.  ◎    \'{y} ý    \c{h} ḩ    \~{V}   Ṽ    \^\'{O}  Ố    \searrow    ↘    \uncertainty                                 ⯑
+\'E É    \FI Ｉ   \ae æ    \}}  ⦄    \MIx 𝒙    \ciO  ◯    \'{z} ź    \c{k} ķ    \~{Y}   Ỹ    \^\'{a}  ấ    \section    §    \updownarrow                                 ↕
+\'G Ǵ    \FJ Ｊ   \b+ ⊞    \~-  ≃    \MIy 𝒚    \cib  ●    \.\=A Ǡ    \c{l} ļ    \~{a}   ã    \^\'{e}  ế    \sqrt[3]    ∛    \^\Reversed E                                ᴲ
+\'I Í    \FK Ｋ   \b- ⊟    \~=  ≅    \MIz 𝒛    \ciw  ○    \.\=O Ȱ    \c{n} ņ    \~{e}   ẽ    \^\'{o}  ố    \sqrt[4]    ∜    \^\Reversed N                                ᴻ
+\'K Ḱ    \FL Ｌ   \b. ⊡    \~A  Ã    \McA 𝒜    \clL  ⌊    \.\=a ǡ    \c{r} ŗ    \~{i}   ĩ    \^\`{A}  Ầ    \succsim    ≿    \^\capital aa                                𐞀
+\'L Ĺ    \FM Ｍ   \b0 𝟘    \~E  Ẽ    \McB ℬ    \clR  ⌋    \.\=o ȱ    \c{s} ş    \~{n}   ñ    \^\`{E}  Ề    \swarrow    ↙    \^\capital oe                                𐞣
+\'M Ḿ    \FN Ｎ   \b1 𝟙    \~I  Ĩ    \McC 𝒞    \cll  ⌞    \.{A} Ȧ    \c{t} ţ    \~{o}   õ    \^\`{O}  Ồ    \textwon    ₩    \^\dz digraph                                𐞇
+\'N Ń    \FO Ｏ   \b2 𝟚    \~N  Ñ    \McD 𝒟    \clr  ⌟    \.{B} Ḃ    \d-u- ⇵    \~{u}   ũ    \^\`{a}  ầ    \uparrow    ↑    \^\ls digraph                                𐞙
+\'O Ó    \FP Ｐ   \b3 𝟛    \~O  Õ    \McE ℰ    \cuL  ⌈    \.{C} Ċ    \d\.S Ṩ    \~{v}   ṽ    \^\`{e}  ề    \upsilon    υ    \^\lz digraph                                𐞚
+\'P Ṕ    \FQ Ｑ   \b4 𝟜    \~U  Ũ    \McF ℱ    \cuR  ⌉    \.{D} Ḋ    \d\.s ṩ    \~{y}   ỹ    \^\`{o}  ồ    \varbeta    ϐ    \^\reversed e                                𐞎
+\'R Ŕ    \FR Ｒ   \b5 𝟝    \~V  Ṽ    \McG 𝒢    \cul  ⌜    \.{E} Ė    \d\=L Ḹ    \'{\O}  Ǿ    \^\beta  ᵝ    \warning    ⚠    \^\sideways u                                ᵙ
+\'S Ś    \FS Ｓ   \b6 𝟞    \~Y  Ỹ    \McH ℋ    \cup  ∪    \.{F} Ḟ    \d\=R Ṝ    \'{\o}  ǿ    \^\d{A}  Ậ    \BOmicron   𝚶    \^\top half o                                ᵔ
+\'U Ú    \FT Ｔ   \b7 𝟟    \~a  ã    \McI ℐ    \cur  ⌝    \.{G} Ġ    \d\=l ḹ    \={\i}  ī    \^\d{E}  Ệ    \Bomicron   𝛐    \^\ts digraph                                𐞬
+\'W Ẃ    \FU Ｕ   \b8 𝟠    \~e  ẽ    \McJ 𝒥    \c{}  ¸    \.{H} Ḣ    \d\=r ṝ    \Alpha  Α    \^\d{O}  Ộ    \^\h hook   ʱ    \blacklozenge                                ✦
+\'Y Ý    \FV Ｖ   \b9 𝟡    \~i  ĩ    \McK 𝒦    \d-2  ⇊    \.{I} İ    \ddag ‡    \Delta  Δ    \^\d{a}  ậ    \^\open e   ᵋ    \construction                                🚧
+\'Z Ź    \FW Ｗ   \bA 𝔸    \~o  õ    \McL ℒ    \d-|  ↧    \.{M} Ṁ    \def= ≝    \Gamma  Γ    \^\d{e}  ệ    \^\open o   ᵓ    \ordmasculine                                º
+\'a á    \FX Ｘ   \bB 𝔹    \~u  ũ    \McM ℳ    \d==  ⟱    \.{N} Ṅ    \defs ≙    \Kappa  Κ    \^\d{o}  ộ    \angstrom   Å    \risingdotseq                                ≓
+\'c ć    \FY Ｙ   \bC ℂ    \~v  ṽ    \McN 𝒩    \dag  †    \.{O} Ȯ    \dong ₫    \Koppa  Ϟ    \^\heng  ꭜ    \approxeq   ≊    \textcircledP                                ℗
+\'e é    \FZ Ｚ   \bD 𝔻    \~y  ỹ    \McO 𝒪    \dd-  ↡    \.{P} Ṗ    \d{A} Ạ    \Lamda  Λ    \^\iota  ᶥ    \backcong   ≌    \textdiscount                                ⁒
+\'g ǵ    \Fa ａ   \bE 𝔼    \~~  ≈    \McP 𝒫    \dei  ϯ    \.{R} Ṙ    \d{B} Ḅ    \Omega  Ω    \^\lezh  𐞞    \barwedge   ⊼    \triangledown                                ▿
+\'i í    \Fb ｂ   \bF 𝔽    \"{} ¨    \McQ 𝒬    \di.  ◈    \.{S} Ṡ    \d{D} Ḍ    \Sampi  Ϡ    \^\~{A}  Ẫ    \bigoplus   ⨁    \triangleleft                                ◃
+\'k ḱ    \Fc ｃ   \bG 𝔾    \'\O Ǿ    \McR ℛ    \dib  ◆    \.{T} Ṫ    \d{E} Ẹ    \Shima  Ϭ    \^\~{E}  Ễ    \bigsqcup   ⨆    \Longleftarrow                               ⇐
+\'l ĺ    \Fd ｄ   \bH ℍ    \'\o ǿ    \McS 𝒮    \div  ÷    \.{W} Ẇ    \d{H} Ḥ    \Sigma  Σ    \^\~{O}  Ỗ    \biguplus   ⨄    \^\b with hook                               𐞅
+\'m ḿ    \Fe ｅ   \bI 𝕀    \'{} ´    \McT 𝒯    \diw  ◇    \.{X} Ẋ    \d{I} Ị    \Theta  Θ    \^\~{a}  ẫ    \bigwedge   ⋀    \^\c with curl                               ᶝ
+\'n ń    \Ff ｆ   \bJ 𝕁    \--> ⟶    \McU 𝒰    \dl-  ↙    \.{Y} Ẏ    \d{K} Ḳ    \Vdash  ⊩    \^\~{e}  ễ    \boxdelta   ⍍    \^\d with hook                               𐞌
+\'o ó    \Fg ｇ   \bK 𝕂    \->n ↛    \McV 𝒱    \dl=  ⇙    \.{Z} Ż    \d{L} Ḷ    \^\ain  ᵜ    \^\~{o}  ỗ    \boxminus   ⊟    \^\d with tail                               𐞋
+\'p ṕ    \Fh ｈ   \bL 𝕃    \.=. ≑    \McW 𝒲    \dr-  ↘    \.{a} ȧ    \d{M} Ṃ    \^\chi  ᵡ    \^{TEL}  ℡    \boxnabla   ⍔    \^\g with hook                               𐞓
+\'r ŕ    \Fi ｉ   \bM 𝕄    \.{} ˙    \McX 𝒳    \dr=  ⇘    \.{b} ḃ    \d{N} Ṇ    \^\eng  ᵑ    \approx  ≈    \boxtimes   ⊠    \^\greek gamma                               ᵞ
+\'s ś    \Fj ｊ   \bN ℕ    \::- ∺    \McY 𝒴    \ell  ℓ    \.{c} ċ    \d{O} Ọ    \^\esh  ᶴ    \asmash  ⬆    \boxwedge   ⍓    \^\h with hook                               ʱ
+\'u ú    \Fk ｋ   \bO 𝕆    \<-- ⟵    \McZ 𝒵    \end  〗   \.{d} ḋ    \d{R} Ṛ    \^\eth  ᶞ    \bigcap  ⋂    \circledR   ®    \^\l with belt                               𐞛
+\'w ẃ    \Fl ｌ   \bP ℙ    \<-> ↔    \Mca 𝒶    \eta  η    \.{e} ė    \d{S} Ṣ    \^\ezh  ᶾ    \bigcup  ⋃    \circledS   Ⓢ    \^\ligature oe                               ꟹ
+\'y ý    \Fm ｍ   \bQ ℚ    \<-n ↚    \Mcb 𝒷    \exn  ∄    \.{f} ḟ    \d{T} Ṭ    \^\phi  ᶲ    \bigvee  ⋁    \clubsuit   ♣    \^\m with hook                               ᶬ
+\'z ź    \Fn ｎ   \bR ℝ    \<=> ⇔    \Mcc 𝒸    \fei  ϥ    \.{g} ġ    \d{U} Ụ    \^{SM}  ℠    \bowtie  ⋈    \cruzeiro   ₢    \^\r with tail                               𐞨
+\(= ≘    \Fo ｏ   \bS 𝕊    \<=n ≰    \Mcd 𝒹    \flq  ‹    \.{h} ḣ    \d{V} Ṿ    \^{TM}  ™    \boxdiv  ⌹    \curlyvee   ⋎    \^\s with curl                               𐞺
+\(b ⟅    \Fp ｐ   \bT 𝕋    \<~n ⋦    \Mce ℯ    \frq  ›    \.{m} ṁ    \d{W} Ẉ    \^{\j}  ĵ    \boxeqn  ⍯    \currency   ¤    \^\s with hook                               ᶳ
+\(| ⦇    \Fq ｑ   \bU 𝕌    \=== ≣    \Mcf 𝒻    \gen  ≱    \.{n} ṅ    \d{Y} Ỵ    \above  ┴    \boxneq  ⍯    \diameter   ⌀    \^\v with hook                               ᶹ
+\)b ⟆    \Fr ｒ   \bV 𝕍    \==n ≢    \Mcg ℊ    \ggg  ⋙    \.{o} ȯ    \d{Z} Ẓ    \aleph  ℵ    \boxvee  ⍌    \division   ÷    \^\z with curl                               ᶽ
+\*= ≛    \Fs ｓ   \bW 𝕎    \=>n ⇏    \Mch 𝒽    \glb  ⊓    \.{p} ṗ    \d{a} ạ    \alpha  α    \bumpeq  ≏    \doteqdot   ≑    \bigtriangleup                               △
+\+  ⊹    \Ft ｔ   \bX 𝕏    \={} ¯    \Mci 𝒾    \glq  ‚    \.{r} ṙ    \d{b} ḅ    \amalg  ∐    \c\'{C}  Ḉ    \emptyset   ∅    \blacktriangle                               ▴
+\-: ∹    \Fu ｕ   \bY 𝕐    \>=n ≱    \Mcj 𝒿    \grq  ‘    \.{s} ṡ    \d{d} ḍ    \aoint  ∳    \c\'{c}  ḉ    \geqslant   ≥    \divideontimes                               ⋇
+\-> →    \Fv ｖ   \bZ ℤ    \>~n ⋧    \Mck 𝓀    \iff  ⇔    \.{t} ṫ    \d{e} ẹ    \asymp  ≍    \c\u{E}  Ḝ    \gnapprox   ⋧    \fallingdotseq                               ≒
+\-o ⊸    \Fw ｗ   \ba 𝕒    \And ⋀    \Mcl 𝓁    \inf  ∞    \.{w} ẇ    \d{h} ḥ    \begin  〖   \c\u{e}  ḝ    \hphantom   ⬄    \hookleftarrow                               ↩
+\-| ⊣    \Fx ｘ   \bb 𝕓    \BGA 𝚨    \Mcm 𝓂    \inn  ∉    \.{x} ẋ    \d{i} ị    \below  ┬    \circeq  ≗    \intercal   ⊺    \leftarrowtail                               ↢
+\-~ ≂    \Fy ｙ   \bc 𝕔    \BGB 𝚩    \Mcn 𝓃    \int  ∫    \.{y} ẏ    \d{k} ḳ    \boxdi  ⌺    \coprod  ∐    \leqslant   ≤    \leftharpoonup                               ↼
+\.+ ∔    \Fz ｚ   \bd 𝕕    \BGC 𝚾    \Mco ℴ    \kip  ₭    \.{z} ż    \d{l} ḷ    \boxeq  ⌸    \d\.{S}  Ṩ    \llcorner   ⌞    \longleftarrow                               ⟵
+\.- ∸    \GA Α    \be 𝕖    \BGD 𝚫    \Mcp 𝓅    \k{}  ˛    \<--> ⟷    \d{m} ṃ    \cdots  ⋯    \d\.{s}  ṩ    \lnapprox   ⋦    \looparrowleft                               ↫
+\.= ≐    \GB Β    \bf 𝕗    \BGE 𝚬    \Mcq 𝓆    \l--  ⟵    \<->n ↮    \d{n} ṇ    \close  ┤    \d\={L}  Ḹ    \lrcorner   ⌟    \measuredangle                               ∡
+\.A Ȧ    \GC Χ    \bg 𝕘    \BGF 𝚽    \Mcr 𝓇    \l-2  ⇇    \<=>n ⇎    \d{o} ọ    \coint  ∲    \d\={R}  Ṝ    \multimap   ⊸    \ntriangleleft                               ⋪
+\.B Ḃ    \GD Δ    \bh 𝕙    \BGG 𝚪    \Mcs 𝓈    \l->  ↢    \<~nn ≴    \d{r} ṛ    \colon  ₡    \d\={l}  ḹ    \parallel   ∥    \shortparallel                               ∥
+\.C Ċ    \GE Ε    \bi 𝕚    \BGH 𝚮    \Mct 𝓉    \l-n  ↚    \=\"U Ṻ    \d{s} ṣ    \dashv  ⊣    \d\={r}  ṝ    \pppprime   ⁗    \smallsetminus                               ∖
+\.D Ḋ    \GF Φ    \bj 𝕛    \BGI 𝚰    \Mcu 𝓊    \l-|  ↤    \=\"u ṻ    \d{t} ṭ    \dddot  ⃛     \dagger  †    \precnsim   ⋨    \textbigcircle                               ⃝
+\.E Ė    \GG Γ    \bk 𝕜    \BGK 𝚱    \Mcv 𝓋    \l==  ⇚    \=\'E Ḗ    \d{u} ụ    \ddots  ⋱    \daleth  ℸ    \setminus   ∖    \textestimated                               ℮
+\.F Ḟ    \GH Η    \bl 𝕝    \BGL 𝚲    \Mcw 𝓌    \l=n  ⇍    \=\'O Ṓ    \d{v} ṿ    \delta  δ    \ddddot  ⃜     \shortmid   ∣    \triangleright                               ▹
+\.G Ġ    \GI Ι    \bm 𝕞    \BGM 𝚳    \Mcx 𝓍    \ldq  “    \=\'e ḗ    \d{w} ẉ    \doteq  ≐    \degree  °    \spesmilo   ₷    \upleftharpoon                               ↿
+\.H Ḣ    \GK Κ    \bn 𝕟    \BGN 𝚴    \Mcy 𝓎    \len  ≰    \=\'o ṓ    \d{y} ỵ    \equiv  ≡    \dsmash  ⬇    \sqsubset   ⊏    \Leftrightarrow                              ⇔
+\.I İ    \GL Λ    \bo 𝕠    \BGO 𝛀    \Mcz 𝓏    \lhd  ◁    \=\AE Ǣ    \d{z} ẓ    \frac1  ⅟    \eqcirc  ≖    \sqsupset   ⊐    \Longrightarrow                              ⇒
+\.M Ṁ    \GM Μ    \bp 𝕡    \BGP 𝚿    \MfA 𝔄    \ll-  ↞    \=\`E Ḕ    \euro €    \frown  ⌢    \exists  ∃    \subseteq   ⊆    \^\closed omega                              𐞤
+\.N Ṅ    \GN Ν    \bq 𝕢    \BGR 𝚸    \MfB 𝔅    \lll  ⋘    \=\`O Ṑ    \flat ♭    \gamma  γ    \female  ♀    \succnsim   ⋩    \^\dezh digraph                              𐞊
+\.O Ȯ    \GO Ω    \br 𝕣    \BGS 𝚺    \MfC ℭ    \lr-  ↔    \=\`e ḕ    \flqq «    \gimel  ℷ    \forall  ∀    \supseteq   ⊇    \^\feng digraph                              𐞐
+\.P Ṗ    \GP Ψ    \bs 𝕤    \BGT 𝚻    \MfD 𝔇    \lr=  ⇔    \=\`o ṑ    \frqq »    \gneqq  ≩    \frac12  ½    \textbaht   ฿    \^\tesh digraph                              𐞮
+\.R Ṙ    \GR Ρ    \bt 𝕥    \BGU 𝚼    \MfE 𝔈    \lr~  ↭    \=\ae ǣ    \geqq ≧    \gnsim  ⋧    \frac13  ⅓    \textdied   ✝    \^\turned alpha                              ᶛ
+\.S Ṡ    \GS Σ    \bv 𝕧    \BGX 𝚵    \MfF 𝔉    \lub  ⊔    \={A} Ā    \gets ←    \iiint  ∭    \frac14  ¼    \textlira   ₤    \curvearrowleft                              ↶
+\.T Ṫ    \GT Τ    \bw 𝕨    \BGZ 𝚭    \MfG 𝔊    \mho  ℧    \={E} Ē    \glqq „    \imath  ı    \frac15  ⅕    \textpeso   ₱    \downdownarrows                              ⇊
+\.W Ẇ    \GU Υ    \by 𝕪    \BGa 𝛂    \MfH ℌ    \mid  ∣    \={G} Ḡ    \gneq ≩    \infty  ∞    \frac16  ⅙    \thicksim   ∼    \hookrightarrow                              ↪
+\.X Ẋ    \GX Ξ    \bz 𝕫    \BGb 𝛃    \MfI ℑ    \neg  ¬    \={I} Ī    \grqq “    \jmath  ȷ    \frac18  ⅛    \triangle   ▵    \leftleftarrows                              ⇇
+\.Y Ẏ    \GZ Ζ    \cC Ç    \BGc 𝛘    \MfJ 𝔍    \neq  ≠    \={O} Ō    \hbar ℏ    \kappa  κ    \frac23  ⅔    \ulcorner   ⌜    \leftrightarrow                              ↔
+\.Z Ż    \Ga α    \cD Ḑ    \BGd 𝛅    \MfK 𝔎    \nin  ∌    \={U} Ū    \heta ͱ    \koppa  ϟ    \frac25  ⅖    \underbar   ▁    \leftthreetimes                              ⋋
+\.a ȧ    \Gb β    \cE Ȩ    \BGe 𝛆    \MfL 𝔏    \not  ̸     \={Y} Ȳ    \hori ϩ    \lamda  λ    \frac34  ¾    \undertie   ‿    \longrightarrow                              ⟶
+\.b ḃ    \Gc χ    \cG Ģ    \BGf 𝛗    \MfM 𝔐    \o--  ⊖    \={a} ā    \iint ∬    \lceil  ⌈    \frac35  ⅗    \urcorner   ⌝    \looparrowright                              ↬
+\.c ċ    \Gd δ    \cH Ḩ    \BGg 𝛄    \MfN 𝔑    \ohm  Ω    \={e} ē    \iota ι    \ldata  《   \frac38  ⅜    \varkappa   ϰ    \multiplication                              ×
+\.d ḋ    \Ge ε    \cK Ķ    \BGh 𝛈    \MfO 𝔒    \or=  ≚    \={g} ḡ    \k\=O Ǭ    \ldots  …    \frac45  ⅘    \varprime   ′    \nshortparallel                              ∦
+\.e ė    \Gf φ    \cL Ļ    \BGi 𝛊    \MfP 𝔓    \pab  ▰    \={i} ī    \k\=o ǭ    \lneqq  ≨    \frac56  ⅚    \varsigma   ς    \ntriangleright                              ⋫
+\.f ḟ    \Gg γ    \cN Ņ    \BGk 𝛋    \MfQ 𝔔    \paw  ▱    \={o} ō    \khei ϧ    \lnsim  ⋦    \frac58  ⅝    \vartheta   ϑ    \rightarrowtail                              ↣
+\.g ġ    \Gh η    \cR Ŗ    \BGl 𝛌    \MfR ℜ    \per  ⅌    \={u} ū    \k{A} Ą    \manat  ₼    \frac78  ⅞    \vphantom   ⇳    \rightharpoonup                              ⇀
+\.h ḣ    \Gi ι    \cS Ş    \BGm 𝛍    \MfS 𝔖    \phi  ϕ    \={y} ȳ    \k{E} Ę    \micro  µ    \gangia  ϫ    \Downarrow  ⇓    \sphericalangle                              ∢
+\.m ṁ    \Gk κ    \cT Ţ    \BGn 𝛎    \MfT 𝔗    \psi  ψ    \>~nn ≵    \k{I} Į    \minus  −    \gtrdot  ⋗    \Leftarrow  ⇐    \textopenbullet                              ◦
+\.n ṅ    \Gl λ    \cc ç    \BGo 𝛚    \MfU 𝔘    \qed  ∎    \BGTH 𝚯    \k{O} Ǫ    \nabla  ∇    \gtrsim  ≳    \^\upsilon  ᶷ    \trianglelefteq                              ⊴
+\.o ȯ    \Gm μ    \cd ḑ    \BGp 𝛙    \MfV 𝔙    \r--  ⟶    \BGth 𝛉    \k{U} Ų    \naira  ₦    \hsmash  ⬌    \backprime  ‵    \uprightharpoon                              ↾
+\.p ṗ    \Gn ν    \ce ȩ    \BGr 𝛒    \MfW 𝔚    \r-2  ⇉    \Beta Β    \k{a} ą    \ncong  ≇    \iiiint  ⨌    \backsimeq  ⋍    \^\H With Stroke                             ꟸ
+\.r ṙ    \Go ω    \cg ģ    \BGs 𝛔    \MfX 𝔛    \r-3  ⇶    \Heta Ͱ    \k{e} ę    \ngeqq  ≱    \k\={O}  Ǭ    \bigotimes  ⨂    \^\bottom half o                             ᵕ
+\.s ṡ    \Gp ψ    \ch ḩ    \BGt 𝛕    \MfY 𝔜    \r->  ↣    \Hori Ϩ    \k{i} į    \nleqq  ≰    \k\={o}  ǭ    \biohazard  ☣    \^\h with stroke                             𐞕
+\.t ṫ    \Gr ρ    \ck ķ    \BGu 𝛖    \MfZ ℨ    \r-n  ↛    \H{O} Ő    \k{o} ǫ    \nless  ≮    \kelvin  K    \boxcircle  ⌼    \^\i with stroke                             ᶤ
+\.w ẇ    \Gs σ    \cn ņ    \BGx 𝛏    \Mfa 𝔞    \r-o  ⊸    \H{U} Ű    \k{u} ų    \notin  ∉    \lambda  λ    \brokenbar  ¦    \^\o with stroke                             𐞢
+\.x ẋ    \Gt τ    \cr ŗ    \BGz 𝛇    \Mfb 𝔟    \r-|  ↦    \H{o} ő    \l-r- ⇆    \nprec  ⊀    \langle  ⟨    \centerdot  ·    \^\turned open e                             ᵌ
+\.y ẏ    \Gu υ    \cs ş    \BPi 𝚷    \Mfc 𝔠    \r==  ⇛    \H{u} ű    \lari ₾    \nsucc  ⊁    \lfloor  ⌊    \checkmark  ✓    \^\turned r hook                             ʵ
+\.z ż    \Gx ξ    \ct ţ    \Box □    \Mfd 𝔡    \r=n  ⇏    \Iota Ι    \lbag ⟅    \oiint  ∯    \ltimes  ⋉    \copyright  ©    \bigtriangledown                             ▽
+\:: ∷    \Gz ζ    \d- ↓    \Bpi 𝛑    \Mfe 𝔢    \rdq  ”    \Join ⋈    \ldiv ∕    \omega  ω    \mapsto  ↦    \dotsquare  ⊡    \circlearrowleft                             ↺
+\:= ≔    \HO Ő    \d= ⇓    \Cap ⋒    \Mff 𝔣    \rhd  ▷    \Khei Ϧ    \leqq ≦    \oplus  ⊕    \models  ⊧    \downarrow  ↓    \curvearrowright                             ↷
+\:~ ∻    \HU Ű    \dd ⅆ    \Chi Χ    \Mfg 𝔤    \rho  ρ    \Shei Ϣ    \lira ₤    \ounce  ℥    \nVDash  ⊯    \facsimile  ℻    \downleftharpoon                             ⇃
+\<- ←    \Ho ő    \dh ð    \Cup ⋓    \Mfh 𝔥    \rr-  ↠    \U{o} ő    \lneq ≨    \pound  £    \nVdash  ⊮    \gtrapprox  ≳    \leftharpoondown                             ↽
+\<< ⟪    \Hu ű    \dz ↯    \Dei Ϯ    \Mfi 𝔦    \san  ϻ    \Vert ‖    \lnot ¬    \prcue  ≼    \nequiv  ≢    \gtreqless  ⋛    \leftrightarrows                             ⇆
+\<n ≮    \Im ℑ    \ee ⅇ    \Eta Η    \Mfj 𝔧    \sbs  ﹨   \Zeta Ζ    \lr-- ⟷    \prime  ′    \nsimeq  ≄    \gvertneqq  ≩    \nLeftrightarrow                             ⇎
+\<| ⦉    \Ll ⋘    \em —    \Fei Ϥ    \Mfk 𝔨    \sho  ϸ    \^Gth ᶿ    \lr-n ↮    \ratio  ∶    \numero  №    \heartsuit  ♥    \nleftrightarrow                             ↮
+\<~ ≲    \Mu Μ    \en –    \GTH Θ    \Mfl 𝔩    \sim  ∼    \^\'A Ấ    \lr=n ⇎    \rceil  ⌉    \nvDash  ⊭    \increment  ∆    \ntrianglelefteq                             ⋬
+\=: ≕    \Nu Ν    \ex ∃    \Gl- ƛ    \Mfm 𝔪    \som  ⃀    \^\'E Ế    \male ♂    \rdata  》   \nvdash  ⊬    \lambdabar  ƛ    \rightleftarrows                             ⇄
+\== ≡    \O* ⍟    \ge ≥    \Glb ⨅    \Mfn 𝔫    \sq.  ▣    \^\'O Ố    \mill ₥    \rrect  ▢    \oiiint  ∰    \leftarrow  ←    \rightthreetimes                             ⋌
+\=> ⇒    \O+ ⨁    \gg ≫    \Gth θ    \Mfo 𝔬    \sqo  ▢    \^\'a ấ    \ngeq ≱    \ruble  ₽    \ominus  ⊖    \lesseqgtr  ⋚    \squigarrowright                             ⇝
+\=A Ā    \O. ⨀    \ii ⅈ    \H{} ˝    \Mfp 𝔭    \st6  ✶    \^\'e ế    \ngtr ≯    \rupee  ₨    \oslash  ⊘    \llbracket  〚   \textinterrobang                             ‽
+\=E Ē    \OE Œ    \in ∈    \Lsh ↰    \Mfq 𝔮    \st8  ✴    \^\'o ố    \nleq ≰    \sampi  ϡ    \otimes  ⊗    \lvertneqq  ≨    \textmusicalnote                             ♪
+\=G Ḡ    \Or ⋁    \jj ⅉ    \Lub ⨆    \Mfr 𝔯    \sub  ⊂    \^\Ae ᴭ    \nmid ∤    \sharp  ♯    \permil  ‰    \ngeqslant  ≱    \trianglerighteq                             ⊵
+\=I Ī    \Ox ⨂    \kA Ą    \MCA 𝓐    \Mfs 𝔰    \sum  ∑    \^\Ou ᴽ    \nsim ≁    \shima  ϭ    \peseta  ₧    \nleqslant  ≰    \vartriangleleft                             ⊲
+\=O Ō    \Pi Π    \kE Ę    \MCB 𝓑    \Mft 𝔱    \sup  ⊃    \^\`A Ầ    \odot ⊙    \sigma  σ    \pounds  £    \nparallel  ∦    \^\heng with hook                            𐞗
+\=U Ū    \Re ℜ    \kI Į    \MCC 𝓒    \Mfu 𝔲    \tau  τ    \^\`E Ề    \oint ∮    \simeq  ≃    \pprime  ″    \nshortmid  ∤    \circlearrowright                            ↻
+\=Y Ȳ    \TH Þ    \kO Ǫ    \MCD 𝓓    \Mfv 𝔳    \tie  ⁀    \^\`O Ồ    \perp ⊥    \smash  ⬍    \preceq  ≼    \nsubseteq  ⊈    \downrightharpoon                            ⇂
+\=a ā    \U+ ⨄    \kU Ų    \MCE 𝓔    \Mfw 𝔴    \top  ⊤    \^\`a ầ    \peso ₱    \smile  ⌣    \propto  ∝    \nsupseteq  ⊉    \ntrianglerighteq                            ⋭
+\=e ē    \U. ⨃    \ka ą    \MCF 𝓕    \Mfx 𝔵    \u-2  ⇈    \^\`e ề    \prec ≺    \sqcap  ⊓    \rangle  ⟩    \octagonal  🛑   \rightharpoondown                            ⇁
+\=g ḡ    \Un ⋃    \ke ę    \MCG 𝓖    \Mfy 𝔶    \u-|  ↥    \^\`o ồ    \prod ∏    \sqcup  ⊔    \rddots  ⋰    \overbrace  ⏞    \rightrightarrows                            ⇉
+\=i ī    \Uo ő    \ki į    \MCH 𝓗    \Mfz 𝔷    \u==  ⟰    \^\ae 𐞃    \qdrt ∜    \squb=  ⊑    \rfloor  ⌋    \overparen  ⏜    \twoheadleftarrow                            ↞
+\=n ≠    \Xi Ξ    \ko ǫ    \MCI 𝓘    \MiA 𝐴    \ud-  ↕    \^\~A Ẫ    \quad      \squp=  ⊒    \rtimes  ⋊    \paragraph  ¶    \vartriangleright                            ⊳
+\=u ū    \[[ ⟦    \ku ų    \MCJ 𝓙    \MiB 𝐵    \ud=  ⇕    \^\~E Ễ    \r-l- ⇄    \sub=n  ⊈    \square  □    \pitchfork  ⋔    \^\r with fishhook                           𐞩
+\=y ȳ    \]] ⟧    \l- ←    \MCK 𝓚    \MiC 𝐶    \ul-  ↖    \^\~O Ỗ    \rbag ⟆    \sup=n  ⊉    \squb=n  ⋢    \rrbracket  〛   \^\reversed open e                           ᶟ
+\>= ≥    \^( ⁽    \l= ⇐    \MCL 𝓛    \MiD 𝐷    \ul=  ⇖    \^\~a ẫ    \rect ▭    \surd3  ∛    \squp=n  ⋣    \spadesuit  ♠    \blacktriangledown                           ▾
+\>> ⟫    \^) ⁾    \le ≤    \MCM 𝓜    \MiE 𝐸    \ur-  ↗    \^\~e ễ    \rial ﷼    \surd4  ∜    \stigma  ϛ    \subseteqq  ⊆    \blacktriangleleft                           ◂
+\>n ≯    \^+ ⁺    \ll ≪    \MCN 𝓝    \MiF 𝐹    \ur=  ⇗    \^\~o ỗ    \sdiv ⁄    \tenge  ₸    \subset  ⊂    \subsetneq  ⊊    \leftrightharpoons                           ⇋
+\>~ ≳    \^- ⁻    \lq ‘    \MCO 𝓞    \MiG 𝐺    \uu-  ↟    \^{A} Â    \shei ϣ    \theta  θ    \succeq  ≽    \supseteqq  ⊇    \rightleftharpoons                           ⇌
+\?= ≟    \^0 ⁰    \m= ≞    \MCP 𝓟    \MiH 𝐻    \u{}  ˘    \^{C} Ĉ    \sqrt √    \times  ×    \supset  ⊃    \supsetneq  ⊋    \textcolonmonetary                           ₡
+\?? ⁇    \^1 ¹    \mp ∓    \MCQ 𝓠    \MiI 𝐼    \vee  ∨    \^{E} Ê    \squb ⊏    \uplus  ⊎    \textmu  µ    \telephone  ℡    \textreferencemark                           ※
+\AA Å    \^2 ²    \mu μ    \MCR 𝓡    \MiJ 𝐽    \v{}  ˇ    \^{G} Ĝ    \squp ⊐    \u{\i}  ĭ    \tugrik  ₮    \textnaira  ₦    \twoheadrightarrow                           ↠
+\AE Æ    \^3 ³    \ne ≠    \MCS 𝓢    \MiK 𝐾    \won  ₩    \^{H} Ĥ    \st12 ✹    \vDash  ⊨    \u\'{A}  Ắ    \therefore  ∴    \Longleftrightarrow                          ⇔
+\B0 𝟎    \^4 ⁴    \ni ∋    \MCT 𝓣    \MiL 𝐿    \yen  ¥    \^{I} Î    \star ⋆    \varpi  ϖ    \u\'{a}  ắ    \triangleq  ≜    \^\n with left hook                          ᶮ
+\B1 𝟏    \^5 ⁵    \nu ν    \MCU 𝓤    \MiM 𝑀    \|-n  ⊬    \^{J} Ĵ    \sub= ⊆    \vdash  ⊢    \u\`{A}  Ằ    \varpropto  ∝    \^\u with left hook                          ꭟ
+\B2 𝟐    \^6 ⁶    \o* ⊛    \MCV 𝓥    \MiN 𝑁    \|=n  ⊭    \^{O} Ô    \subn ⊄    \vdots  ⋮    \u\`{a}  ằ    \Lleftarrow ⇚    \blacktriangleright                          ▸
+\B3 𝟑    \^7 ⁷    \o+ ⊕    \MCW 𝓦    \MiO 𝑂    \||-  ⊩    \^{S} Ŝ    \succ ≻    \v{\i}  ǐ    \u\d{A}  Ặ    \Rightarrow ⇒    \longleftrightarrow                          ⟷
+\B4 𝟒    \^8 ⁸    \o- ⊝    \MCX 𝓧    \MiP 𝑃    \||=  ⊫    \^{U} Û    \sup= ⊇    \v{\j}  ǰ    \u\d{a}  ặ    \^\Barred B ᴯ    \textpertenthousand                          ‱
+\B5 𝟓    \^9 ⁹    \o. ⊙    \MCY 𝓨    \MiQ 𝑄    \||n  ∦    \^{W} Ŵ    \supn ⊅    \wedge  ∧    \u\~{A}  Ẵ    \^\barred o ᶱ    \^\v with right hook                         𐞰
+\B6 𝟔    \^= ⁼    \o/ ⊘    \MCZ 𝓩    \MiR 𝑅    \~-n  ≄    \^{Y} Ŷ    \surd √    \~{\i}  ĩ    \u\~{a}  ẵ    \^\script g ᶢ    \leftrightsquigarrow                         ↭
+\B7 𝟕    \^B ᴮ    \o= ⊜    \MCa 𝓪    \MiS 𝑆    \~=n  ≇    \^{Z} Ẑ    \u-d- ⇅    \"\'{I} Ḯ    \v\.{S}  Ṧ    \^\turned a ᵄ    \textfractionsolidus                         ⁄
+\B8 𝟖    \^D ᴰ    \oe œ    \MCb 𝓫    \MiT 𝑇    \~{}  ˜    \^{a} â    \u\'A Ắ    \"\'{U} Ǘ    \v\.{s}  ṧ    \^\turned h ᶣ    \^\capital inverted r                        ʶ
+\B9 𝟗    \^F ꟳ    \oo ⊚    \MCc 𝓬    \MiU 𝑈    \~~-  ≊    \^{c} ĉ    \u\'a ắ    \"\'{i} ḯ    \varkai  ϗ    \^\turned i ᵎ    \^\turned r with hook                        ʵ
+\BA 𝐀    \^K ᴷ    \or ∨    \MCd 𝓭    \MiV 𝑉    \~~n  ≉    \^{e} ê    \u\`A Ằ    \"\'{u} ǘ    \varphi  φ    \^\turned m ᵚ    \^\turned y with belt                        𐞡
+\BB 𝐁    \^L ᴸ    \ox ⊗    \MCe 𝓮    \MiW 𝑊    \~~~  ≋    \^{g} ĝ    \u\`a ằ    \"\={A} Ǟ    \varrho  ϱ    \^\turned r ʴ    \^\capital g with hook                       𐞔
+\BC 𝐂    \^M ᴹ    \pi π    \MCf 𝓯    \MiX 𝑋    \"\'I Ḯ    \^{h} ĥ    \u\~A Ẵ    \"\={O} Ȫ    \veebar  ⊻    \^\turned v ᶺ    \^\capital l with belt                       𐞜
+\BD 𝐃    \^N ᴺ    \pm ±    \MCg 𝓰    \MiY 𝑌    \"\'U Ǘ    \^{i} î    \u\~a ẵ    \"\={U} Ǖ    \~\"{O}  Ṏ    \^\turned w ꭩ    \^\j with crossed-tail                       ᶨ
+\BE 𝐄    \^P ᴾ    \r- →    \MCh 𝓱    \MiZ 𝑍    \"\'i ḯ    \^{j} ĵ    \ud-| ↨    \"\={a} ǟ    \~\"{o}  ṏ    \^\turned y 𐞠    \^\l with middle tilde                       ꭞ
+\BF 𝐅    \^Q ꟴ    \r= ⇒    \MCi 𝓲    \Mia 𝑎    \"\'u ǘ    \^{o} ô    \u{A} Ă    \"\={o} ȫ    \~\'{O}  Ṍ    \circledast ⊛    \^\l with palatal hook                       ᶪ
+\BG 𝐆    \^R ᴿ    \rq ’    \MCj 𝓳    \Mib 𝑏    \"\=A Ǟ    \^{s} ŝ    \u{E} Ĕ    \"\={u} ǖ    \~\'{U}  Ṹ    \complement ∁    \^\t with palatal hook                       ᶵ
+\BH 𝐇    \^S Ŝ    \ss ß    \MCk 𝓴    \Mic 𝑐    \"\=O Ȫ    \^{u} û    \u{G} Ğ    \"\`{U} Ǜ    \~\'{o}  ṍ    \curlywedge ⋏    \^\d with hook and tail                      𐞍
+\BI 𝐈    \^T ᵀ    \t= ≜    \MCl 𝓵    \Mid 𝑑    \"\=U Ǖ    \^{w} ŵ    \u{I} Ĭ    \"\`{u} ǜ    \~\'{u}  ṹ    \eqslantgtr ⋝    \^\dz digraph with curl                      𐞉
+\BJ 𝐉    \^V ⱽ    \th þ    \MCm 𝓶    \Mie 𝑒    \"\=a ǟ    \^{y} ŷ    \u{O} Ŏ    \"\v{U} Ǚ    \~\={O}  Ȭ    \gtreqqless ⋛    \^\tc digraph with curl                      𐞫
+\BK 𝐊    \^Y Ŷ    \to →    \MCn 𝓷    \Mif 𝑓    \"\=o ȫ    \^{z} ẑ    \u{U} Ŭ    \"\v{u} ǚ    \~\={o}  ȭ    \lessapprox ≲    \^\capital i with stroke                     ᶧ
+\BL 𝐋    \^Z Ẑ    \u+ ⊎    \MCo 𝓸    \Mig 𝑔    \"\=u ǖ    \`{A} À    \u{a} ă    \'\.{S} Ṥ    \Diamond ◇    \lesseqqgtr ⋚    \^\dotless j with stroke                     ᶡ
+\BM 𝐌    \^b ᵇ    \u- ↑    \MCp 𝓹    \Mih ℎ    \"\`U Ǜ    \`{E} È    \u{e} ĕ    \'\.{s} ṥ    \Digamma Ϝ    \longmapsto ⟼    \^\l with retroflex hook                     ᶩ
+\BN 𝐍    \^d ᵈ    \u. ⊍    \MCq 𝓺    \Mii 𝑖    \"\`u ǜ    \`{I} Ì    \u{g} ğ    \'{\AE} Ǽ    \Epsilon Ε    \mathscr{I} ℐ    \^\n with retroflex hook                     ᶯ
+\BO 𝐎    \^f ᶠ    \u= ⇑    \MCr 𝓻    \Mij 𝑗    \"\vU Ǚ    \`{N} Ǹ    \u{i} ĭ    \'{\ae} ǽ    \Omicron Ο    \nLeftarrow ⇍    \^\reversed glottal stop                     ˤ
+\BP 𝐏    \^k ᵏ    \uA Ă    \MCs 𝓼    \Mik 𝑘    \"\vu ǚ    \`{O} Ò    \u{o} ŏ    \.\={A} Ǡ    \Uparrow ⇑    \nleftarrow ↚    \^\t with retroflex hook                     𐞯
+\BQ 𝐐    \^m ᵐ    \uE Ĕ    \MCt 𝓽    \Mil 𝑙    \"{A} Ä    \`{U} Ù    \u{u} ŭ    \.\={O} Ȱ    \Upsilon Υ    \nsubseteqq ⊈    \^\z with retroflex hook                     ᶼ
+\BR 𝐑    \^n ⁿ    \uG Ğ    \MCu 𝓾    \Mim 𝑚    \"{E} Ë    \`{W} Ẁ    \v\.S Ṧ    \.\={a} ǡ    \^\alpha ᵅ    \nsupseteqq ⊉    \^\closed reversed open e                    𐞏
+\BS 𝐒    \^p ᵖ    \uI Ĭ    \MCv 𝓿    \Min 𝑛    \"{H} Ḧ    \`{Y} Ỳ    \v\.s ṧ    \.\={o} ȱ    \^\delta ᵟ    \precapprox ≾    \^\l with inverted lazy s                    ꭝ
+\BT 𝐓    \^q 𐞥    \uO Ŏ    \MCw 𝔀    \Mio 𝑜    \"{I} Ï    \`{a} à    \vbar │    \=\"{U} Ṻ    \^\gamma ˠ    \prohibited 🛇    \^\turned m with long leg                    ᶭ
+\BU 𝐔    \^t ᵗ    \uU Ŭ    \MCx 𝔁    \Mip 𝑝    \"{O} Ö    \`{e} è    \v{A} Ǎ    \=\"{u} ṻ    \^\schwa ᵊ    \registered ®    \^\turned r with long leg                    𐞦
+\BV 𝐕    \^x ˣ    \ua ă    \MCy 𝔂    \Miq 𝑞    \"{U} Ü    \`{i} ì    \v{C} Č    \=\'{E} Ḗ    \^\theta ᶿ    \rightarrow →    \^\lezh with retroflex hook                  𐞟
+\BW 𝐖    \_( ₍    \ue ĕ    \MCz 𝔃    \Mir 𝑟    \"{W} Ẅ    \`{n} ǹ    \v{D} Ď    \=\'{O} Ṓ    \^\u bar ᶶ    \smallamalg ∐    \^\dotless j with stroke and hook            𐞘
+\BX 𝐗    \_) ₎    \ug ğ    \MIA 𝑨    \Mis 𝑠    \"{X} Ẍ    \`{o} ò    \v{E} Ě    \=\'{e} ḗ    \afghani ؋    \smallsmile ⌣    \^\dz digraph with retroflex hook            𐞈
+\BY 𝐘    \_+ ₊    \ui ĭ    \MIB 𝑩    \Mit 𝑡    \"{Y} Ÿ    \`{u} ù    \v{G} Ǧ    \=\'{o} ṓ    \austral ₳    \sqsubseteq ⊑    \^\l with retroflex hook and belt            𐞝
+\BZ 𝐙    \_- ₋    \un ∪    \MIC 𝑪    \Miu 𝑢    \"{a} ä    \`{w} ẁ    \v{H} Ȟ    \=\`{E} Ḕ    \backsim ∽    \sqsupseteq ⊒    \^\ts digraph with retroflex hook            𐞭
+\Ba 𝐚    \_0 ₀    \uo ŏ    \MID 𝑫    \Miv 𝑣    \"{e} ë    \`{y} ỳ    \v{I} Ǐ    \=\`{O} Ṑ    \because ∵    \subsetneqq ⊊    \^\turned r with long leg and retroflex hook 𐞧
+
+key           character(s)  [type a key (sequence) and select one from the list]
+------------- ------------
+\!            ！ ¡
+\"            ＂ ̈
+\#            ♯ ＃
+\&            ⅋ ＆
+\'            ′ ″ ‴ ⁗ ＇ ́
+\(            ( [ { ⁅ ⁽ ₍ 〈 ⎴ ⟅ ⟦ ⟨ ⟪ ⦃ 〈 《 「 『 【 〔 〖 〚 ︵ ︷ ︹ ︻ ︽ ︿ ﹁ ﹃ ﹙ ﹛ ﹝ （ ［ ｛ ｢ ❪ ❬ ❰ ❲ ❴ ⟮ ⦅ ⦗ ⧼ ⸨ ❮ ⦇ ⦉
+\)            ) ] } ⁆ ⁾ ₎ 〉 ⎵ ⟆ ⟧ ⟩ ⟫ ⦄ 〉 》 」 』 】 〕 〗 〛 ︶ ︸ ︺ ︼ ︾ ﹀ ﹂ ﹄ ﹚ ﹜ ﹞ ） ］ ｝ ｣ ❫ ❭ ❱ ❳ ❵ ⟯ ⦆ ⦘ ⧽ ⸩ ❯ ⦈ ⦊
+\*            ⋆ ＊
+\,            ʻ ، ⸲ ⸴ ⹁ ⹉ 、 ︐ ︑ ﹐ ﹑ ， ､  
+\.            ∙ ． ̇
+\/            ／ ＼ ‌
+\:            ∶ ⦂ ː ꞉ ˸ ፥ ፦ ： ﹕ ︓  
+\;            ⨾ ⨟ ⁏ ፤ ꛶ ； ︔ ﹔ ⍮ ⸵ ;  
+\<            ⟨ < ≪ ⋘ ≺ ⊂ ⋐ ⊏ ⊰ ⊲ ⋖ ＜
+\=            ＝ ̄
+\>            ⟩ > ≫ ⋙ ≻ ⊃ ⋑ ⊐ ⊱ ⊳ ⋗ ＞
+\?            ？ ¿
+\T            ◀ ◁ ▶ ▷ ▲ △ ▼ ▽ ◬ ◭ ◮
+\`            ‵ ‶ ‷ ｀ ̀
+\b            ♭ ̱
+\c            ⌜ ⌝ ⌞ ⌟ ⌈ ⌉ ⌊ ⌋ ̧
+\d            ↓ ⇓ ⤋ ⟱ ⇊ ⇵ ↧ ⇩ ↡ ⇃ ⇂ ⇣ ⇟ ↵ ↲ ↳ ➥ ↯ ̣
+\i            ∩ ı
+\l            ← ⇐ ⇚ ⭅ ⇇ ⇆ ↤ ⇦ ↞ ↼ ↽ ⇠ ⇺ ↜ ⇽ ⟵ ⟸ ↚ ⇍ ⇷ ↹ ↢ ↩ ↫ ⇋ ⇜ ⇤ ⟻ ⟽ ⤆ ↶ ↺ ⟲ ł
+\o            ∘ ø
+\r            → ⇒ ⇛ ⭆ ⇉ ⇄ ↦ ⇨ ↠ ⇀ ⇁ ⇢ ⇻ ↝ ⇾ ⟶ ⟹ ↛ ⇏ ⇸ ⇶ ↴ ↣ ↪ ↬ ⇌ ⇝ ⇥ ⟼ ⟾ ⤇ ↷ ↻ ⟳ ⇰ ⇴ ⟴ ⟿ ➵ ➸ ➙ ➔ ➛ ➜ ➝ ➞ ➟ ➠ ➡ ➢ ➣ ➤ ➧ ➨ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➱ ➲ ➳ ➺ ➻ ➼ ➽ ➾ ⊸
+\t            ◂ ◃ ◄ ◅ ▸ ▹ ► ▻ ▴ ▵ ▾ ▿ ◢ ◿ ◣ ◺ ◤ ◸ ◥ ◹
+\u            ↑ ⇑ ⤊ ⟰ ⇈ ⇅ ↥ ⇧ ↟ ↿ ↾ ⇡ ⇞ ↰ ↱ ➦ ⇪ ⇫ ⇬ ⇭ ⇮ ⇯ ̆
+\~            ∼ ～ ̃
+\((           ⦅ ｟
+\))           ⦆ ｠
+\8<           ✂ ✄
+\<=           ≤ ⇐
+\=o           ≗ ō
+\?!           ‽ ⁈
+\Tb           ◀ ▶ ▲ ▼
+\Tw           ◁ ▷ △ ▽
+\^.           ̇ ̈ ⃛ ⃜
+\^A           ᴬ Â
+\^C           Ĉ ꟲ
+\^E           ᴱ Ê
+\^G           ᴳ Ĝ
+\^H           ᴴ Ĥ
+\^I           ᴵ Î
+\^J           ᴶ Ĵ
+\^O           ᴼ Ô
+\^U           ᵁ Û
+\^W           ᵂ Ŵ
+\^^           ̂ ̑ ͆
+\^a           ᵃ â
+\^c           ᶜ ĉ
+\^e           ᵉ ê
+\^g           ᵍ ĝ
+\^h           ʰ ĥ
+\^i           ⁱ î
+\^j           ʲ ĵ
+\^l           ⃖ ⃐ ⃔ ˡ
+\^o           ᵒ ô
+\^r           ⃗ ⃑ ⃕ ʳ
+\^s           ˢ ŝ
+\^u           ᵘ û
+\^v           ̌ ̆ ᵛ
+\^w           ʷ ŵ
+\^y           ʸ ŷ
+\^z           ᶻ ẑ
+\^~           ̃ ͌
+\_.           ̣ ̤
+\_^           ̭ ̯ ̪
+\_v           ̬ ̮ ̺ ᵥ ᵥ
+\bu           𝕦 • ◦ ‣ ⁌ ⁍
+\bx           ⊠ 𝕩
+\ci           ● ○ ◎ ◌ ◯ ◍ ◐ ◑ ◒ ◓ ◔ ◕ ◖ ◗ ◠ ◡ ◴ ◵ ◶ ◷ ⚆ ⚇ ⚈ ⚉
+\cl           ⌞ ⌟ ⌊ ⌋ ļ
+\cu           ⌜ ⌝ ⌈ ⌉
+\di           ◆ ◇ ◈
+\dl           ↙ ⇙
+\dr           ↘ ⇘ ⇲ ➴ ➷ ➘
+\eq           = ∼ ∽ ≈ ≋ ∻ ∾ ∿ ≀ ≃ ⋍ ≂ ≅ ≌ ≊ ≡ ≣ ≐ ≑ ≒ ≓ ≔ ≕ ≖ ≗ ≘ ≙ ≚ ≛ ≜ ≝ ≞ ≟ ≍ ≎ ≏ ≬ ⋕ ＝
+\lr           ↔ ⇔ ⇼ ↭ ⇿ ⟷ ⟺ ↮ ⇎ ⇹
+\l~           ↜ ⇜
+\pa           ▰ ▱
+\re           ▬ ▭ ▮ ▯
+\r~           ↝ ⇝ ⟿
+\sq           ■ □ ◼ ◻ ◾ ◽ ▣ ▢ ▤ ▥ ▦ ▧ ▨ ▩ ◧ ◨ ◩ ◪ ◫ ◰ ◱ ◲ ◳
+\st           ⋆ ✦ ✧ ✶ ✴ ✹ ★ ☆ ✪ ✫ ✯ ✰ ✵ ✷ ✸
+\tb           ◂ ▸ ▴ ▾ ◄ ► ◢ ◣ ◤ ◥
+\tw           ◃ ▹ ▵ ▿ ◅ ▻ ◿ ◺ ◸ ◹
+\ud           ↕ ⇕ ↨ ⇳
+\ul           ↖ ⇖ ⇱ ↸
+\ur           ↗ ⇗ ➶ ➹ ➚
+\z;           ⨟ ⨾
+\~n           ≁ ñ
+\(0)          ⓪ 🄀 ⓿ 🄋 🄌
+\(1)          ⑴ ① ⒈ ❶ ➀ ➊
+\(2)          ⑵ ② ⒉ ❷ ➁ ➋
+\(3)          ⑶ ③ ⒊ ❸ ➂ ➌
+\(4)          ⑷ ④ ⒋ ❹ ➃ ➍
+\(5)          ⑸ ⑤ ⒌ ❺ ➄ ➎
+\(6)          ⑹ ⑥ ⒍ ❻ ➅ ➏
+\(7)          ⑺ ⑦ ⒎ ❼ ➆ ➐
+\(8)          ⑻ ⑧ ⒏ ❽ ➇ ➑
+\(9)          ⑼ ⑨ ⒐ ❾ ➈ ➒
+\(a)          ⒜ Ⓐ ⓐ 🅐 🄰 🅰
+\(b)          ⒝ Ⓑ ⓑ 🅑 🄱 🅱
+\(c)          ⒞ Ⓒ ⓒ 🅒 🄲 🅲
+\(d)          ⒟ Ⓓ ⓓ 🅓 🄳 🅳
+\(e)          ⒠ Ⓔ ⓔ 🅔 🄴 🅴
+\(f)          ⒡ Ⓕ ⓕ 🅕 🄵 🅵
+\(g)          ⒢ Ⓖ ⓖ 🅖 🄶 🅶
+\(h)          ⒣ Ⓗ ⓗ 🅗 🄷 🅷
+\(i)          ⒤ Ⓘ ⓘ 🅘 🄸 🅸
+\(j)          ⒥ Ⓙ ⓙ 🅙 🄹 🅹
+\(k)          ⒦ Ⓚ ⓚ 🅚 🄺 🅺
+\(l)          ⒧ Ⓛ ⓛ 🅛 🄻 🅻
+\(m)          ⒨ Ⓜ ⓜ 🅜 🄼 🅼
+\(n)          ⒩ Ⓝ ⓝ 🅝 🄽 🅽
+\(o)          ⒪ Ⓞ ⓞ 🅞 🄾 🅾
+\(p)          ⒫ Ⓟ ⓟ 🅟 🄿 🅿
+\(q)          ⒬ Ⓠ ⓠ 🅠 🅀 🆀
+\(r)          ⒭ Ⓡ ⓡ 🅡 🅁 🆁
+\(s)          ⒮ Ⓢ ⓢ 🅢 🅂 🆂
+\(t)          ⒯ Ⓣ ⓣ 🅣 🅃 🆃
+\(u)          ⒰ Ⓤ ⓤ 🅤 🅄 🆄
+\(v)          ⒱ Ⓥ ⓥ 🅥 🅅 🆅
+\(w)          ⒲ Ⓦ ⓦ 🅦 🅆 🆆
+\(x)          ⒳ Ⓧ ⓧ 🅧 🅇 🆇
+\(y)          ⒴ Ⓨ ⓨ 🅨 🅈 🆈
+\(z)          ⒵ Ⓩ ⓩ 🅩 🅉 🆉
+\---          ─ │ ┌ ┐ └ ┘ ├ ┤ ┬ ┼ ┴ ╴ ╵ ╶ ╷ ╭ ╮ ╯ ╰ ╱ ╲ ╳
+\--.          ╌ ╎ ┄ ┆ ┈ ┊ ╍ ╏ ┅ ┇ ┉ ┋
+\--=          ═ ║ ╔ ╗ ╚ ╝ ╠ ╣ ╦ ╬ ╩ ╒ ╕ ╘ ╛ ╞ ╡ ╤ ╪ ╧ ╓ ╖ ╙ ╜ ╟ ╢ ╥ ╫ ╨
+\--_          ━ ┃ ┏ ┓ ┗ ┛ ┣ ┫ ┳ ╋ ┻ ╸ ╹ ╺ ╻ ┍ ┯ ┑ ┕ ┷ ┙ ┝ ┿ ┥ ┎ ┰ ┒ ┖ ┸ ┚ ┠ ╂ ┨ ┞ ╀ ┦ ┟ ╁ ┧ ┢ ╈ ┪ ┡ ╇ ┩ ┮ ┭ ┶ ┵ ┾ ┽ ┲ ┱ ┺ ┹ ╊ ╉ ╆ ╅ ╄ ╃ ╿ ╽ ╼ ╾
+\...          ⋯ ⋮ ⋰ ⋱
+\^--          ̅ ̿
+\_--          ̲ ̳
+\apl          ⌶ ⌷ ⌸ ⌹ ⌺ ⌻ ⌼ ⌽ ⌾ ⌿ ⍀ ⍁ ⍂ ⍃ ⍄ ⍅ ⍆ ⍇ ⍈ ⍉ ⍊ ⍋ ⍌ ⍍ ⍎ ⍏ ⍐ ⍑ ⍒ ⍓ ⍔ ⍕ ⍖ ⍗ ⍘ ⍙ ⍚ ⍛ ⍜ ⍝ ⍞ ⍟ ⍠ ⍡ ⍢ ⍣ ⍤ ⍥ ⍦ ⍧ ⍨ ⍩ ⍪ ⍫ ⍬ ⍭ ⍮ ⍯ ⍰ ⍱ ⍲ ⍳ ⍴ ⍵ ⍶ ⍷ ⍸ ⍹ ⍺ ⎕
+\die          ⚀ ⚁ ⚂ ⚃ ⚄ ⚅
+\eqn          ≠ ≁ ≉ ≄ ≇ ≆ ≢ ≭
+\geq          > ≫ ⋙ ≥ ≧ ≳ ≷ ≻ ≽ ≿ ⊃ ⊇ ⋑ ⊐ ⊒ ⊱ ⊳ ⊵ ⋗ ⋛ ⋝ ⋟ ＞
+\leq          < ≪ ⋘ ≤ ≦ ≲ ≶ ≺ ≼ ≾ ⊂ ⊆ ⋐ ⊏ ⊑ ⊰ ⊲ ⊴ ⋖ ⋚ ⋜ ⋞ ＜
+\reb          ▬ ▮
+\rew          ▭ ▯
+\sqb          ■ ◼ ◾
+\sqw          □ ◻ ◽
+\st4          ✦ ✧
+\(10)         ⑽ ⑩ ⒑ ❿ ➉ ➓
+\(11)         ⑾ ⑪ ⒒ ⓫
+\(12)         ⑿ ⑫ ⒓ ⓬
+\(13)         ⒀ ⑬ ⒔ ⓭
+\(14)         ⒁ ⑭ ⒕ ⓮
+\(15)         ⒂ ⑮ ⒖ ⓯
+\(16)         ⒃ ⑯ ⒗ ⓰
+\(17)         ⒄ ⑰ ⒘ ⓱
+\(18)         ⒅ ⑱ ⒙ ⓲
+\(19)         ⒆ ⑲ ⒚ ⓳
+\(20)         ⒇ ⑳ ⒛ ⓴
+\frac         ¼ ½ ¾ ⅓ ⅔ ⅕ ⅖ ⅗ ⅘ ⅙ ⅚ ⅛ ⅜ ⅝ ⅞ ⅟
+\geqn         ≯ ≱ ≩ ≵ ⋧ ≹ ⊁ ⋩ ⊅ ⊉ ⊋ ⋣ ⋥ ⋫ ⋭ ⋡
+\join         ⋈ ⋉ ⋊ ⋋ ⋌ ⨝ ⟕ ⟖ ⟗
+\leqn         ≮ ≰ ≨ ≴ ⋦ ≸ ⊀ ⋨ ⊄ ⊈ ⊊ ⋢ ⋤ ⋪ ⋬ ⋠
+\note         ♩ ♪ ♫ ♬
+\angle        ∟ ∡ ∢ ⊾ ⊿ ∠
+\union        ∪ ⋃ ∨ ⋁ ⋎ ⨈ ⊔ ⨆ ⋓ ∐ ⨿ ⊽ ⊻ ⊍ ⨃ ⊎ ⨄ ⊌ ∑ ⅀
+\member       ∈ ∉ ∊ ∋ ∌ ∍ ⋲ ⋳ ⋴ ⋵ ⋶ ⋷ ⋸ ⋹ ⋺ ⋻ ⋼ ⋽ ⋾ ⋿
+\entails      ⊢ ⊣ ⊤ ⊥ ⊦ ⊧ ⊨ ⊩ ⊪ ⊫ ⊬ ⊭ ⊮ ⊯
+\asterisk     ⁎ ⁑ ⁂ ✢ ✣ ✤ ✥ ✱ ✲ ✳ ✺ ✻ ✼ ✽ ❃ ❉ ❊ ❋ ＊
+\integral     ∫ ∬ ∭ ∮ ∯ ∰ ∱ ∲ ∳
+\intersection ∩ ⋂ ∧ ⋀ ⋏ ⨇ ⊓ ⨅ ⋒ ∏ ⊼ ⨉
+
