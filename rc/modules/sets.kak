@@ -3,7 +3,7 @@ require-module kakounicode_ifte
 declare-option -docstring 'Enable set operations kakounicode aliases.' \
     str kakounicode_enable_sets false
 
-hook global ModuleLoaded kakounicode %{
+hook global ModuleLoaded kakounicode_db %{
     if %opt{kakounicode_enable_sets} %{ require-module kakounicode_sets }
 }
 

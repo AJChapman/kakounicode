@@ -3,7 +3,7 @@ require-module kakounicode_ifte
 declare-option -docstring 'Enable TeX kakounicode aliases (minus the Greek letters; see greek.kak).' \
     str kakounicode_enable_TeX false
 
-hook global ModuleLoaded kakounicode %{
+hook global ModuleLoaded kakounicode_db %{
     if %opt{kakounicode_enable_TeX} %{ require-module kakounicode_TeX }
 }
 

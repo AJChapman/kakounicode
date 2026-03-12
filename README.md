@@ -12,7 +12,7 @@ It is inspired by and tries to follow the conventions of agda-mode for Emacs.
 
 If you're using [plug.kak](https://github.com/andreyorst/plug.kak) then add this to your kakrc:
 
-```
+```kak
 plug "AJChapman/kakounicode"
 ```
 
@@ -38,12 +38,23 @@ Note that the first expansion (intentional or otherwise) may take a couple of se
 This is because the unicode aliases are not loaded until this first expansion.
 Subsequent expansions should happen instantly™.
 
+### Unicode Symbol Lookup
+
+You can learn about the symbol under the cursor if you set the option `kakounicode_describe_selection` to `true`.
+It's probably best not to enable it at startup, since it will require loading all the unicode aliases on startup.
+You may want to add these mappings, or similar:
+
+```kak
+    map global user k ': set global kakounicode_describe_selection true<ret>'
+    map global user K ': set global kakounicode_describe_selection false<ret>'
+```
+
 ## Configuration
 
 You can configure a number of things by setting options in your kakrc.
 If you are using plug.kak then placing this in your kakrc will result in the default settings ready for you to customise:
 
-```
+```kak
 plug "AJChapman/kakounicode" config %{
     # Set whether aliases will be expanded or not.
     # This is basically the on/off switch.
@@ -62,6 +73,27 @@ plug "AJChapman/kakounicode" config %{
     set-option global kakounicode_enable_equals_and_similar false
     set-option global kakounicode_enable_sets false
     set-option global kakounicode_enable_TeX false
+
+    # Enable or disable describing the currently selected unicode symbol
+    set-option global kakounicode_describe_selection false
 }
 ```
 
+## Customisation
+
+You can add your own custom 'unicode' symbols, or additional aliases for existing symbols.
+The commands are simple: `add-unicode` and `add-unicode-alias`; but there's a little boilerplate to add to
+E.g:
+
+```kak
+add-unicode '💩' 'pileofpoo' 'Pile of poo'
+add-unicode-alias '💩' 'poo'
+add-unicode-alias '💩' 'poop'
+add-unicode-alias '💩' 'emacs'
+```
+
+You are not limited to single characters either; any string will do:
+
+```kak
+add-unicode '¯\_(ツ)_/¯' 'shrug' 'Shrug'
+```

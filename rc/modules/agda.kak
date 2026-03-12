@@ -3,7 +3,7 @@ require-module kakounicode_ifte
 declare-option -docstring 'Enable Agda kakounicode aliases, matching agda-mode in Emacs.' \
     str kakounicode_enable_agda true
 
-hook global ModuleLoaded kakounicode %{
+hook global ModuleLoaded kakounicode_db %{
     if %opt{kakounicode_enable_agda} %{ require-module kakounicode_agda }
 }
 
@@ -310,7 +310,7 @@ add-unicode 'Γ' 'GG'                                          'Greek capital le
 add-unicode 'Η' 'GH'                                          'Greek capital letter eta'
 add-unicode 'Ι' 'GI'                                          'Greek capital letter iota'
 add-unicode 'Κ' 'GK'                                          'Greek capital letter kappa'
-add-unicode 'Λ' 'GL'                                          'Greek capital letter lamda'
+add-unicode 'Λ' 'GL'                                          'Greek capital letter lambda'
 add-unicode 'Μ' 'GM'                                          'Greek capital letter mu'
 add-unicode 'Ν' 'GN'                                          'Greek capital letter nu'
 add-unicode 'Ω' 'GO'                                          'Greek capital letter omega'
@@ -331,7 +331,7 @@ add-unicode 'γ' 'Gg'                                          'Greek small lett
 add-unicode 'η' 'Gh'                                          'Greek small letter eta'
 add-unicode 'ι' 'Gi'                                          'Greek small letter iota'
 add-unicode 'κ' 'Gk'                                          'Greek small letter kappa'
-add-unicode 'λ' 'Gl'                                          'Greek small letter lamda'
+add-unicode 'λ' 'Gl'                                          'Greek small letter lambda'
 add-unicode 'μ' 'Gm'                                          'Greek small letter mu'
 add-unicode 'ν' 'Gn'                                          'Greek small letter nu'
 add-unicode 'ω' 'Go'                                          'Greek small letter omega'
@@ -707,7 +707,7 @@ add-unicode '𝚪' 'BGG'                                         'Mathematical b
 add-unicode '𝚮' 'BGH'                                         'Mathematical bold capital eta'
 add-unicode '𝚰' 'BGI'                                         'Mathematical bold capital iota'
 add-unicode '𝚱' 'BGK'                                         'Mathematical bold capital kappa'
-add-unicode '𝚲' 'BGL'                                         'Mathematical bold capital lamda'
+add-unicode '𝚲' 'BGL'                                         'Mathematical bold capital lambda'
 add-unicode '𝚳' 'BGM'                                         'Mathematical bold capital mu'
 add-unicode '𝚴' 'BGN'                                         'Mathematical bold capital nu'
 add-unicode '𝛀' 'BGO'                                         'Mathematical bold capital omega'
@@ -728,7 +728,7 @@ add-unicode '𝛄' 'BGg'                                         'Mathematical b
 add-unicode '𝛈' 'BGh'                                         'Mathematical bold small eta'
 add-unicode '𝛊' 'BGi'                                         'Mathematical bold small iota'
 add-unicode '𝛋' 'BGk'                                         'Mathematical bold small kappa'
-add-unicode '𝛌' 'BGl'                                         'Mathematical bold small lamda'
+add-unicode '𝛌' 'BGl'                                         'Mathematical bold small lambda'
 add-unicode '𝛍' 'BGm'                                         'Mathematical bold small mu'
 add-unicode '𝛎' 'BGn'                                         'Mathematical bold small nu'
 add-unicode '𝛚' 'BGo'                                         'Mathematical bold small omega'
@@ -1670,7 +1670,7 @@ add-unicode 'Δ' 'Delta'                                       'Greek capital le
 add-unicode 'Γ' 'Gamma'                                       'Greek capital letter gamma'
 add-unicode 'Κ' 'Kappa'                                       'Greek capital letter kappa'
 add-unicode 'Ϟ' 'Koppa'                                       'Greek letter koppa'
-add-unicode 'Λ' 'Lamda'                                       'Greek capital letter lamda'
+add-unicode 'Λ' 'Lamda'                                       'Greek capital letter lambda'
 add-unicode 'Ω' 'Omega'                                       'Greek capital letter omega'
 add-unicode 'Ϡ' 'Sampi'                                       'Greek letter sampi'
 add-unicode 'Ϭ' 'Shima'                                       'Coptic capital letter shima'
@@ -1723,7 +1723,7 @@ add-unicode '∞' 'infty'                                       'Infinity'
 add-unicode 'ȷ' 'jmath'                                       'Latin small letter dotless j'
 add-unicode 'κ' 'kappa'                                       'Greek small letter kappa'
 add-unicode 'ϟ' 'koppa'                                       'Greek small letter koppa'
-add-unicode 'λ' 'lamda'                                       'Greek small letter lamda'
+add-unicode 'λ' 'lambda'                                       'Greek small letter lambda'
 add-unicode '⌈' 'lceil'                                       'Left ceiling'
 add-unicode '《' 'ldata'                                      'Left double angle bracket'
 add-unicode '…' 'ldots'                                       'Horizontal ellipsis'
@@ -1847,7 +1847,7 @@ add-unicode 'ℤ' 'Bbb{Z}'                                      'Double-struck c
 add-unicode '≎' 'Bumpeq'                                      'Geometrically equivalent to'
 add-unicode '☹' 'Frowny'                                      'White frowning face'
 add-unicode 'Ϫ' 'Gangia'                                      'Coptic capital letter gangia'
-add-unicode 'Λ' 'Lambda'                                      'Greek capital letter lamda'
+add-unicode 'Λ' 'Lambda'                                      'Greek capital letter lambda'
 add-unicode '✉' 'Letter'                                      'Envelope'
 add-unicode '☺' 'Smiley'                                      'White smiling face'
 add-unicode 'Ϛ' 'Stigma'                                      'Greek letter stigma'
@@ -1938,7 +1938,7 @@ add-unicode '⨌' 'iiiint'                                      'Quadruple integ
 add-unicode 'Ǭ' 'k\={O}'                                      'Latin capital letter o with ogonek and macron'
 add-unicode 'ǭ' 'k\={o}'                                      'Latin small letter o with ogonek and macron'
 add-unicode 'K' 'kelvin'                                      'Kelvin sign'
-add-unicode 'λ' 'lambda'                                      'Greek small letter lamda'
+add-unicode 'λ' 'lambda'                                      'Greek small letter lambda'
 add-unicode '⟨' 'langle'                                      'Mathematical left angle bracket'
 add-unicode '⌊' 'lfloor'                                      'Left floor'
 add-unicode '⋉' 'ltimes'                                      'Left normal factor semidirect product'

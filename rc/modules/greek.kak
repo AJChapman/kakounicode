@@ -3,7 +3,7 @@ require-module kakounicode_ifte
 declare-option -docstring 'Enable Greek alphabet kakounicode aliases.' \
     str kakounicode_enable_greek false
 
-hook global ModuleLoaded kakounicode %{
+hook global ModuleLoaded kakounicode_db %{
     if %opt{kakounicode_enable_greek} %{ require-module kakounicode_greek }
 }
 
@@ -49,7 +49,7 @@ add-unicode 'Δ' 'Delta' 'Greek capital letter delta'
 add-unicode 'Γ' 'Gamma' 'Greek capital letter gamma'
 add-unicode 'Κ' 'Kappa' 'Greek capital letter kappa'
 add-unicode 'Ϟ' 'Koppa' 'Greek letter koppa'
-add-unicode 'Λ' 'Lamda' 'Greek capital letter lamda'
+add-unicode 'Λ' 'Lamda' 'Greek capital letter lambda'
 add-unicode 'Ω' 'Omega' 'Greek capital letter omega'
 add-unicode 'Ϡ' 'Sampi' 'Greek letter sampi'
 add-unicode 'Σ' 'Sigma' 'Greek capital letter sigma'
@@ -59,15 +59,15 @@ add-unicode 'δ' 'delta' 'Greek small letter delta'
 add-unicode 'γ' 'gamma' 'Greek small letter gamma'
 add-unicode 'κ' 'kappa' 'Greek small letter kappa'
 add-unicode 'ϟ' 'koppa' 'Greek small letter koppa'
-add-unicode 'λ' 'lamda' 'Greek small letter lamda'
+add-unicode 'λ' 'lambda' 'Greek small letter lambda'
 add-unicode 'ω' 'omega' 'Greek small letter omega'
 add-unicode 'ϡ' 'sampi' 'Greek small letter sampi'
 add-unicode 'σ' 'sigma' 'Greek small letter sigma'
 add-unicode 'θ' 'theta' 'Greek small letter theta'
 add-unicode 'ϖ' 'varpi' 'Greek pi symbol'
-add-unicode 'Λ' 'Lambda' 'Greek capital letter lamda'
+add-unicode 'Λ' 'Lambda' 'Greek capital letter lambda'
 add-unicode 'Ϛ' 'Stigma' 'Greek letter stigma'
-add-unicode 'λ' 'lambda' 'Greek small letter lamda'
+add-unicode 'λ' 'lambda' 'Greek small letter lambda'
 add-unicode 'ϛ' 'stigma' 'Greek small letter stigma'
 add-unicode 'ϗ' 'varkai' 'Greek kai symbol'
 add-unicode 'φ' 'varphi' 'Greek small letter phi'
