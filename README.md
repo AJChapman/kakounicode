@@ -76,6 +76,8 @@ plug "AJChapman/kakounicode" config %{
 
     # Enable or disable describing the currently selected unicode symbol
     set-option global kakounicode_describe_selection false
+    map global user k ': set global kakounicode_describe_selection true<ret>' -docstring 'Enable kakounicode describe selection'
+    map global user K ': set global kakounicode_describe_selection false<ret>' -docstring 'Disable kakounicode describe selection'
 }
 ```
 
