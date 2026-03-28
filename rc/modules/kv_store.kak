@@ -34,18 +34,56 @@ define-command -hidden map-unescape-equals -params 1 %{
     map-translate %arg{1} %opt{kakounicode_map_equals_escape_char} '='
 }
 
+define-command -hidden map-double-comma -params 1 %{
+    map-translate %arg{1} ',' ',,'
+}
+
+define-command -hidden map-undouble-comma -params 1 %{
+    map-translate %arg{1} ',,' ','
+}
+
 declare-option -hidden str map_add_value_key ""
 
-define-command -hidden map-add-value -params 1..3 %{
+define-command -hidden map-set-value -params 1..3 %{
     # Escape any '=' character in the key
     map-escape-equals %arg{2}
+
     # We have to save it elsewhere as the next map-escape-equals will overwrite %opt{map_translate_result}
     set-option global map_add_value_key %opt{map_translate_result}
+
     # Escape any '=' character in the value
     map-escape-equals %arg{3}
+
     # Add this value to the map
     # (we add single quotes around the keys and values in case they contain a \ character)
     set-option -add global %arg{1} "'%opt{map_add_value_key}'='%opt{map_translate_result}'"
+}
+
+define-command -hidden map-add-value -params 1..3 %{
+    # Look up the existing value for this key (if any)
+    map-lookup %arg{1} %arg{2}
+    try %{
+        # This will throw an error if there was an existing value, thereby running the catch block
+        eval "nop%opt{map_lookup_result}"
+
+        # An error wasn't thrown, therefore there wasn't an existing value, so we can just set this first value
+        map-set-value %arg{1} %arg{2} %arg{3}
+    } catch %{
+        # An error was thrown so there was an existing value (or values) at this key (at %opt{map_lookup_result}), so we will add to this
+
+        # Escape any '=' character in the key
+        map-escape-equals %arg{2}
+
+        # We have to save the escaped key elsewhere as the next map-escape-equals will overwrite %opt{map_translate_result}
+        set-option global map_add_value_key %opt{map_translate_result}
+
+        # Escape any '=' character in the new value
+        map-escape-equals %arg{3}
+
+        # Add this value to the map by tab-separating it and the existing values
+        # (we add single quotes around the keys and values in case they contain a \ character)
+        set-option -add global %arg{1} "'%opt{map_add_value_key}'='%opt{map_lookup_result}	%opt{map_translate_result}'"
+    }
 }
 
 define-command map-remove -params 1..2 %{
@@ -100,6 +138,10 @@ define-command map-lookup -params 1..2 %{
         map-unescape-equals %reg{v}
         set-option global map_lookup_result %opt{map_translate_result}
     }
+}
+
+define-command map-lookup-many -params 1..2 %{
+    map-lookup %arg{1} %arg{2}
 }
 
 §

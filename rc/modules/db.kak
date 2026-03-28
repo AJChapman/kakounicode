@@ -32,8 +32,13 @@ define-command add-unicode-alias -params 1..2 %{
 }
 
 define-command add-unicode -params 1..3 %{
-    map-add-value unicode_name "%arg{1}" "%arg{3}"
-    add-unicode-alias "%arg{1}" "%arg{2}"
+    map-set-value unicode_name "%arg{1}" "%arg{3}"
+
+    # Map this alias to this unicode
+    map-set-value alias_unicode %arg{2} %arg{1}
+
+    # Add this alias to the list of aliases for this unicode
+    map-set-value unicode_aliases %arg{1} %arg{2}
 }
 
 §

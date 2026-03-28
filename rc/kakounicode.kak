@@ -44,15 +44,15 @@ hook global WinSetOption 'kakounicode_describe_selection=true$' %{
             map-lookup unicode_aliases %val{selection}
             # echo -debug "result was %opt{map_lookup_result}"
             if-not-empty %opt{map_lookup_result} %{
+                echo -debug "'%val{selection}' aliases: %opt{map_lookup_result}"
                 set-register v %opt{map_lookup_result}
                 # echo -debug "looking up '%val{selection}' in unicode_name"
                 map-lookup unicode_name %val{selection}
                 # echo -debug "result was %opt{map_lookup_result}"
                 set-register w %opt{map_lookup_result}
-                info -title kakounicode "char value at cursor: %val{cursor_char_value}
-selection: %val{selection}
+                info -title "kakounicode" " %val{selection} : %opt{map_lookup_result}
 aliases: %reg{v}
-name: %opt{map_lookup_result}"
+char: %val{cursor_char_value}"
             }
         }
     }
