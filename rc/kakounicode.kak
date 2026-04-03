@@ -16,11 +16,11 @@ hook global WinSetOption 'kakounicode_auto_expand=true$' %{
                 execute-keys 'hh<a-B><a-;>s<ret><a-;>L"mZ'
                 require-module kakounicode_db
                 map-lookup alias_unicode %val{selection}
-                if-not-empty "%opt{map_lookup_result}" %{
+                if-not-empty "%reg{v}" %{
                     # Restore the selection from the m register, as it is inexplicably clobbered by map-lookup.
                     # We saved it with '"mZ' above.
                     exec '"mz'
-                    exec "H<a-;>Lc%opt{map_lookup_result}"
+                    exec "H<a-;>Lc%reg{v}"
                 }
             }
         }
@@ -39,19 +39,19 @@ hook global WinSetOption 'kakounicode_describe_selection=true$' %{
     hook -group kakounicode-describe-selection window NormalIdle .* %{
         try %{
             require-module kakounicode_db
-            # echo -debug "looking up '%val{selection}' in unicode_aliases"
+            echo -debug "looking up '%val{selection}' in unicode_aliases"
             set-register v ''
             map-lookup unicode_aliases %val{selection}
-            # echo -debug "result was %opt{map_lookup_result}"
-            if-not-empty %opt{map_lookup_result} %{
-                echo -debug "'%val{selection}' aliases: %opt{map_lookup_result}"
-                set-register v %opt{map_lookup_result}
+            echo -debug "result was %reg{v}"
+            if-not-empty "%reg{v}" %{
+                echo -debug "'%val{selection}' aliases: %reg{v}"
+                # Copy %reg{v} to %reg{w} as we're going to overwrite it
+                set-register w %reg{v}
                 # echo -debug "looking up '%val{selection}' in unicode_name"
                 map-lookup unicode_name %val{selection}
-                # echo -debug "result was %opt{map_lookup_result}"
-                set-register w %opt{map_lookup_result}
-                info -title "kakounicode" " %val{selection} : %opt{map_lookup_result}
-aliases: %reg{v}
+                # echo -debug "result was %reg{v}"
+                info -title "kakounicode" "%val{selection} : %reg{v}
+aliases: %sh{ echo $kak_reg_w }
 char: %val{cursor_char_value}"
             }
         }

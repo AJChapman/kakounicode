@@ -19,7 +19,7 @@ define-command add-unicode-alias -params 1..2 %{
     # If first load takes too long then comment this block out.
     # map-lookup alias_unicode %arg{2}
     # try %{
-    #     eval "nop%opt{map_lookup_result}"
+    #     eval "nop%reg{v}"
     # } catch %{
     #     fail "attempting to add alias %arg{2} for unicode %arg{1}, but this alias is already in use by %opt{map_lookup_result}"
     # }
@@ -32,13 +32,13 @@ define-command add-unicode-alias -params 1..2 %{
 }
 
 define-command add-unicode -params 1..3 %{
-    map-set-value unicode_name "%arg{1}" "%arg{3}"
+    map-add-value unicode_name "%arg{1}" "%arg{3}"
 
     # Map this alias to this unicode
-    map-set-value alias_unicode %arg{2} %arg{1}
+    map-add-value alias_unicode %arg{2} %arg{1}
 
     # Add this alias to the list of aliases for this unicode
-    map-set-value unicode_aliases %arg{1} %arg{2}
+    map-add-value unicode_aliases %arg{1} %arg{2}
 }
 
 §
