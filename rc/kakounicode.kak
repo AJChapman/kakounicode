@@ -30,33 +30,59 @@ hook global WinSetOption 'kakounicode_auto_expand=true$' %{
 declare-option -docstring 'Set whether aliases will be expanded or not. This is basically the on/off switch.' \
     bool kakounicode_auto_expand true
 
-
 hook global WinSetOption 'kakounicode_describe_selection=false$' %{
     rmhooks window kakounicode-describe-selection
 }
 hook global WinSetOption 'kakounicode_describe_selection=true$' %{
     rmhooks window kakounicode-describe-selection
     hook -group kakounicode-describe-selection window NormalIdle .* %{
-        try %{
-            require-module kakounicode_db
-            echo -debug "looking up '%val{selection}' in unicode_aliases"
-            set-register v ''
-            map-lookup unicode_aliases %val{selection}
-            echo -debug "result was %reg{v}"
-            if-not-empty "%reg{v}" %{
-                echo -debug "'%val{selection}' aliases: %reg{v}"
-                # Copy %reg{v} to %reg{w} as we're going to overwrite it
-                set-register w %reg{v}
-                # echo -debug "looking up '%val{selection}' in unicode_name"
-                map-lookup unicode_name %val{selection}
-                # echo -debug "result was %reg{v}"
-                info -title "kakounicode" "%val{selection} : %reg{v}
-aliases: %sh{ echo $kak_reg_w }
-char: %val{cursor_char_value}"
+        require-module kakounicode_db
+        kakounicode-info %val{selection}
+    }
+}
+
+# this one must be declared after the hook, otherwise it might not be enabled right away
+declare-option -docstring 'Set whether to describe the characters in the current selection (if they are outside the regular set of ASCII characters.' \
+    bool kakounicode_describe_selection false
+
+# This should actually contain the completions; it is dynamically populated as you type.
+declare-option -hidden completions kakounicode_alias_completions
+
+hook global WinSetOption 'kakounicode_alias_autocomplete=false$' %{
+    rmhooks window kakounicode-alias-autocomplete
+}
+hook global WinSetOption 'kakounicode_alias_autocomplete=true$' %{
+    rmhooks window kakounicode-alias-autocomplete
+    hook -group kakounicode-alias-autocomplete window InsertIdle .* %{
+        evaluate-commands -draft -save-regs /"|^@vm %{
+            try %{
+                # Search backwards to the previous %opt{kakounicode_inline_prefix}, stopping if we reach whitespace and failing if we don't find it
+                set-register / "%opt{kakounicode_inline_prefix}\S+\z"
+                execute-keys 'h<a-B><a-;>s<ret><a-;>L"mZ'
+                require-module kakounicode_db
+                echo -debug "looking up aliases with prefix '%val{selection}'"
+                map-lookup-prefixes alias_unicode %val{selection}
+                if-not-empty "%reg{v}" %{
+                    set-option global kakounicode_alias_completions \
+                    "%val{cursor_line}.%val{cursor_column}+%val{selection_length}@%val{timestamp}"
+                    edit -scratch -debug *kakounicode-autocomplete*
+                    exec "<percent>d""v<a-p>"
+                    # eval -itersel %{echo -debug %val{selection}}
+                    eval -itersel %{
+                        set-option -add global kakounicode_alias_completions %sh{
+                            alias=$(echo "$kak_selection" | sed -n "s/^'\([^']*\)'.'[^']*'$/\1/p")
+                            unicode=$(echo "$kak_selection" | sed -n "s/^'[^']*'.'\([^']*\)'$/\1/p")
+                            echo "$alias|kakounicode-info '$unicode'|$unicode $kak_opt_kakounicode_inline_prefix$alias"
+                        }
+                    }
+                }
+            } catch %{
+                set-option global kakounicode_alias_completions
             }
         }
     }
 }
 # this one must be declared after the hook, otherwise it might not be enabled right away
-declare-option -docstring 'Set whether to describe the characters in the current selection (if they are outside the regular set of ASCII characters.' \
-    bool kakounicode_describe_selection false
+declare-option -docstring 'Set whether kakounicode will suggest unicode alias completions.' \
+    bool kakounicode_alias_autocomplete true
+

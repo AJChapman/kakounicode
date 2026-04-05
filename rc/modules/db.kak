@@ -21,7 +21,7 @@ define-command add-unicode-alias -params 1..2 %{
     # try %{
     #     eval "nop%reg{v}"
     # } catch %{
-    #     fail "attempting to add alias %arg{2} for unicode %arg{1}, but this alias is already in use by %opt{map_lookup_result}"
+    #     fail "attempting to add alias %arg{2} for unicode %arg{1}, but this alias is already in use by %reg{v}"
     # }
 
     # Map this alias to this unicode
@@ -39,6 +39,29 @@ define-command add-unicode -params 1..3 %{
 
     # Add this alias to the list of aliases for this unicode
     map-add-value unicode_aliases %arg{1} %arg{2}
+}
+
+define-command kakounicode-info -params 1..1 %{
+    try %{
+        # echo -debug "looking up '%arg{1}' in unicode_aliases"
+        set-register v ''
+        map-lookup unicode_aliases %arg{1}
+        # echo -debug "result was %reg{v}"
+        try %{
+            # Fails if %reg{v} is not empty
+            eval "nop%reg{v}"
+        } catch %{
+            # echo -debug "'%arg{1}' aliases: %reg{v}"
+            # Copy %reg{v} to %reg{w} as we're going to overwrite it
+            set-register w %reg{v}
+            # echo -debug "looking up '%arg{1}' in unicode_name"
+            map-lookup unicode_name %arg{1}
+            # echo -debug "result was %reg{v}"
+            # info -title "kakounicode" "%arg{1} : %reg{v}
+            info -title "kakounicode" "%arg{1} : %reg{v}
+aliases: %sh{ echo ""${kak_opt_kakounicode_inline_prefix}$kak_reg_w"" | sed ""s/ / ${kak_opt_kakounicode_inline_prefix}/g""}"
+        }
+    }
 }
 
 §

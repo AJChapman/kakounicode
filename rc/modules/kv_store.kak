@@ -10,7 +10,7 @@ declare-option -hidden str map_translate_result
 
 define-command -hidden map-translate -params 1..3 %{
     # Note that this may re-open this buffer, which is why we first delete any existing buffer contents.
-    edit -scratch "*kakounicode-map-translate*"
+    edit -debug -scratch "*kakounicode-map-translate*"
     set-register v %arg{1}
     set-register / %arg{2}
     set-register u %arg{3}
@@ -36,12 +36,11 @@ define-command map-remove -params 1..2 %{
 }
 
 declare-option -hidden str-list map_contents
-# declare-option -hidden str map_lookup_result
 
 define-command map-lookup -params 1..2 %{
     evaluate-commands -draft -save-regs /"|^@w %{
         # Note that this may re-open this buffer, which is why we start our key commands with "<percent>c"; to first delete the existing buffer contents.
-        edit -scratch "*kakounicode-map-lookup*"
+        edit -debug -scratch "*kakounicode-map-lookup*"
         # Set %opt{map_contents} to the contents of the map
         eval "set-option global map_contents %%opt{%arg{1}}"
         try %{
@@ -64,8 +63,36 @@ define-command map-lookup -params 1..2 %{
             # If anything fails return nothing
             set-register v ''
         }
+    }
+}
 
-        # set-option global map_lookup_result %reg{v}
+define-command map-lookup-prefixes -params 1..2 %{
+    evaluate-commands -draft -save-regs /"|^@w %{
+        # Note that this may re-open this buffer, which is why we start our key commands with "<percent>c"; to first delete the existing buffer contents.
+        edit -debug -scratch "*kakounicode-map-lookup*"
+        # Set %opt{map_contents} to the contents of the map
+        eval "set-option global map_contents %%opt{%arg{1}}"
+        try %{
+            # Use the '*' command to set the '/' register to a regex-escaped version of arg 2.
+            # Use the v register to input the key, in case it contains a < character.
+            # We have to *not* save the / register so we can retrieve it, so we exclude it from the -save-regs list.
+            # The Haa<esc>H is to stop kak adding \b at the end of the regex for this prefix search
+            set-register v %arg{2}
+            execute-keys -draft -save-regs |"^@vm "<percent>""vR<percent>Haa<esc>H*"
+
+            # Look up the item with this key (if any) and save it to the 'v' register.
+            # Use the 'w' register to input the map, in case it contains a < character.
+            set-register w "%opt{map_contents}"
+            # Set the / register to the key prefix we want to search for in the <a-k> below, so we don't have to enter it in the execute-keys, in case it contains a <
+            set-register / "\A'%reg{/}"
+            # Replace buffer contents with the 'w' register,
+            # split into words (key=value pairs) using the 't' register to avoid overwriting the '/' register,
+            # keep only those key=value pairs matching the key we want, then save the value to the 'v' register.
+            execute-keys -draft "<percent>""wR<percent>H""ts'[^']+'%opt{kakounicode_map_equals_char}'[^']+'<ret><a-k><ret>""vy"
+        } catch %{
+            # If anything fails return nothing
+            set-register v ''
+        }
     }
 }
 

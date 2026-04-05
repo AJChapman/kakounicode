@@ -56,9 +56,15 @@ If you are using plug.kak then placing this in your kakrc will result in the def
 
 ```kak
 plug "AJChapman/kakounicode" config %{
+    # Create a user mode for kakounicode, opened with <leader>k
+    declare-user-mode kakounicode-menu
+    map global user k ': enter-user-mode kakounicode-menu<ret>' -docstring 'Kakounicode options'
+
     # Set whether aliases will be expanded or not.
     # This is basically the on/off switch.
     set-option global kakounicode_auto_expand true
+    map global kakounicode-menu k ': set global kakounicode_auto_expand true<ret>' -docstring 'Alias expansion on'
+    map global kakounicode-menu <a-k> ': set global kakounicode_auto_expand false<ret>' -docstring 'Alias expansion off'
 
     # Set what should delimit the start of a unicode alias, e.g. if you want `lambda to expand to λ instead.
     # Note that this should be a regex search term, hence the default needing to be escaped.
@@ -74,10 +80,16 @@ plug "AJChapman/kakounicode" config %{
     set-option global kakounicode_enable_sets false
     set-option global kakounicode_enable_TeX false
 
+    # Enable alias autocomplete completer
+    set-option global kakounicode_alias_autocomplete true
+    set-option global completers option=kakounicode_alias_completions %opt{completers}
+    map global kakounicode-menu a ': set global kakounicode_alias_autocomplete true<ret>' -docstring 'Alias autocomplete on'
+    map global kakounicode-menu <a-a> ': set global kakounicode_alias_autocomplete false<ret>' -docstring 'Alias autocomplete off'
+
     # Enable or disable describing the currently selected unicode symbol
-    set-option global kakounicode_describe_selection false
-    map global user k ': set global kakounicode_describe_selection true<ret>' -docstring 'Enable kakounicode describe selection'
-    map global user K ': set global kakounicode_describe_selection false<ret>' -docstring 'Disable kakounicode describe selection'
+    set-option global kakounicode_describe_selection true
+    map global kakounicode-menu d ': set global kakounicode_describe_selection true<ret>' -docstring 'Describe character on'
+    map global kakounicode-menu <a-d> ': set global kakounicode_describe_selection false<ret>' -docstring 'Describe character off'
 }
 ```
 
@@ -88,14 +100,17 @@ The commands are simple: `add-unicode` and `add-unicode-alias`; but there's a li
 E.g:
 
 ```kak
-add-unicode '💩' 'pileofpoo' 'Pile of poo'
-add-unicode-alias '💩' 'poo'
-add-unicode-alias '💩' 'poop'
-add-unicode-alias '💩' 'emacs'
+# Immediately after the kakounicode plug block:
+} defer kakounicode_db %{
+    add-unicode '💩' 'pileofpoo' 'Pile of poo'
+    add-unicode-alias '💩' 'poo'
+    add-unicode-alias '💩' 'poop'
+    add-unicode-alias '💩' 'emacs'
+}
 ```
 
 You are not limited to single characters either; any string will do:
 
 ```kak
-add-unicode '¯\_(ツ)_/¯' 'shrug' 'Shrug'
+    add-unicode '¯\_(ツ)_/¯' 'shrug' 'Shrug'
 ```
