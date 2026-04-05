@@ -48,6 +48,9 @@ declare-option -docstring 'Set whether to describe the characters in the current
 # This should actually contain the completions; it is dynamically populated as you type.
 declare-option -hidden completions kakounicode_alias_completions
 
+declare-option -docstring 'Set a limit on how many alias completions to suggest.' \
+    str kakounicode_alias_completion_limit 12
+
 hook global WinSetOption 'kakounicode_alias_autocomplete=false$' %{
     rmhooks window kakounicode-alias-autocomplete
 }
@@ -60,24 +63,23 @@ hook global WinSetOption 'kakounicode_alias_autocomplete=true$' %{
                 set-register / "%opt{kakounicode_inline_prefix}\S+\z"
                 execute-keys 'h<a-B><a-;>s<ret><a-;>L"mZ'
                 require-module kakounicode_db
-                echo -debug "looking up aliases with prefix '%val{selection}'"
                 map-lookup-prefixes alias_unicode %val{selection}
                 if-not-empty "%reg{v}" %{
-                    set-option global kakounicode_alias_completions \
+                    set-option window kakounicode_alias_completions \
                     "%val{cursor_line}.%val{cursor_column}+%val{selection_length}@%val{timestamp}"
-                    edit -scratch -debug *kakounicode-autocomplete*
-                    exec "<percent>d""v<a-p>"
-                    # eval -itersel %{echo -debug %val{selection}}
-                    eval -itersel %{
-                        set-option -add global kakounicode_alias_completions %sh{
-                            alias=$(echo "$kak_selection" | sed -n "s/^'\([^']*\)'.'[^']*'$/\1/p")
-                            unicode=$(echo "$kak_selection" | sed -n "s/^'[^']*'.'\([^']*\)'$/\1/p")
-                            echo "$alias|kakounicode-info '$unicode'|$unicode $kak_opt_kakounicode_inline_prefix$alias"
-                        }
+                    eval %sh{
+                        n=0
+                        for sel in $kak_reg_v; do
+                            [ "$n" -ge "$kak_opt_kakounicode_alias_completion_limit" ] && break
+                            alias=$(echo "$sel" | sed -n "s/^'\([^']*\)'.'[^']*'$/\1/p" | sed 's/\\/\\\\/g' | sed 's/|/\\|/g')
+                            unicode=$(echo "$sel" | sed -n "s/^'[^']*'.'\([^']*\)'$/\1/p")
+                            echo "set-option -add window kakounicode_alias_completions \"$alias|kakounicode-info $unicode|$unicode $kak_opt_kakounicode_inline_prefix$alias\""
+                            n=$((n + 1))
+                        done
                     }
                 }
             } catch %{
-                set-option global kakounicode_alias_completions
+                set-option window kakounicode_alias_completions
             }
         }
     }
