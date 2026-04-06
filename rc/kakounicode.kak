@@ -49,7 +49,7 @@ declare-option -docstring 'Set whether to describe the characters in the current
 declare-option -hidden completions kakounicode_alias_completions
 
 declare-option -docstring 'Set a limit on how many alias completions to suggest.' \
-    str kakounicode_alias_completion_limit 12
+    str kakounicode_alias_completion_limit 60
 
 hook global WinSetOption 'kakounicode_alias_autocomplete=false$' %{
     rmhooks window kakounicode-alias-autocomplete
