@@ -70,6 +70,7 @@ plug "AJChapman/kakounicode" config %{
     # Enable or disable collections of unicode symbol aliases.
     set-option global kakounicode_enable_agda true
     set-option global kakounicode_enable_emoji true
+    set-option global kakounicode_enable_emoji_extra_aliases true
 
     # These are all superseded by the agda collection, though you may want them individually, without the rest
     set-option global kakounicode_enable_greek false
@@ -102,6 +103,6 @@ E.g:
     add-unicode-alias '💯' 'kakoune'
 
     # You are not limited to single characters either; any string will do:
-    add-unicode '¯\_(ツ)_/¯' 'shrug' 'Shrug'
+    add-unicode '❤️🧡💛💚💙💜🩷' 'rainbow_hearts' 'Emily knows there''s no pink in  a rainbow but considers this an improvement.'
 }
 ```
