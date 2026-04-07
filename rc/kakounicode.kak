@@ -12,7 +12,7 @@ hook global WinSetOption 'kakounicode_auto_expand=true$' %{
         evaluate-commands -draft -save-regs /"|^@vm %{
             try %{
                 # Search backwards to the previous %opt{kakounicode_inline_prefix}, stopping if we reach whitespace and failing if we don't find it
-                set-register / "%opt{kakounicode_inline_prefix}\S+\z"
+                set-register / "%opt{kakounicode_inline_prefix}[^%opt{kakounicode_inline_prefix}]+\z"
                 execute-keys 'hh<a-B><a-;>s<ret><a-;>L"mZ'
                 require-module kakounicode_db
                 map-lookup alias_unicode %val{selection}
@@ -60,7 +60,7 @@ hook global WinSetOption 'kakounicode_alias_autocomplete=true$' %{
         evaluate-commands -draft -save-regs /"|^@vm %{
             try %{
                 # Search backwards to the previous %opt{kakounicode_inline_prefix}, stopping if we reach whitespace and failing if we don't find it
-                set-register / "%opt{kakounicode_inline_prefix}\S+\z"
+                set-register / "%opt{kakounicode_inline_prefix}[^%opt{kakounicode_inline_prefix}]+\z"
                 execute-keys 'h<a-B><a-;>s<ret><a-;>L"mZ'
                 require-module kakounicode_db
                 map-lookup-prefixes alias_unicode %val{selection}
