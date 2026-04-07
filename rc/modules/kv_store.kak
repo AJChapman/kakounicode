@@ -76,9 +76,9 @@ define-command map-search -params 1..2 %{
             # Use the '*' command to set the '/' register to a regex-escaped version of arg 2.
             # Use the v register to input the key, in case it contains a < character.
             # We have to *not* save the / register so we can retrieve it, so we exclude it from the -save-regs list.
-            # The Haa<esc>H is to stop kak adding \b at the end of the regex for this prefix search
+            # The Haa<esc>Hia<esc> is to stop kak adding \b at the start and end of the regex for this search
             set-register v %arg{2}
-            execute-keys -draft -save-regs |"^@vm "<percent>""vR<percent>Haa<esc>H*"
+            execute-keys -draft -save-regs |"^@vm "<percent>""vR<percent>Haa<esc>Hia<esc>*"
 
             # Look up the item with this key (if any) and save it to the 'v' register.
             # Use the 'w' register to input the map, in case it contains a < character.
