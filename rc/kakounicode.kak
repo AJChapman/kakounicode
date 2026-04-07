@@ -43,7 +43,7 @@ hook global WinSetOption 'kakounicode_describe_selection=true$' %{
 
 # this one must be declared after the hook, otherwise it might not be enabled right away
 declare-option -docstring 'Set whether to describe the characters in the current selection (if they are outside the regular set of ASCII characters.' \
-    bool kakounicode_describe_selection false
+    bool kakounicode_describe_selection true
 
 # This should actually contain the completions; it is dynamically populated as you type.
 declare-option -hidden completions kakounicode_alias_completions
