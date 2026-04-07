@@ -130,9 +130,10 @@ add-unicode-alias '🙃' '(:'
 add-unicode-alias '☹️' 'frown'
 add-unicode-alias '☹️' ':('
 add-unicode-alias '🫤' ':/'
+add-unicode-alias '💯' '100'
 
 # Kaomoji
-
+ 
 add-unicode '¯\_(ツ)_/¯'       'shrug'        'Shrug'
 add-unicode '(╯°□°)╯︵ ┻━┻'    'table_flip'   'Table flip'
 add-unicode '┬─┬ ノ( ゜-゜ノ)' 'table_unflip' 'Table unflip'
