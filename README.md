@@ -75,6 +75,9 @@ plug "AJChapman/kakounicode" config %{
 
     # Enable or disable collections of unicode symbol aliases.
     set-option global kakounicode_enable_agda true
+    set-option global kakounicode_enable_emoji true
+
+    # These are all superseded by the agda collection, though you may want them individually, without the rest
     set-option global kakounicode_enable_greek false
     set-option global kakounicode_enable_equals_and_similar false
     set-option global kakounicode_enable_sets false
@@ -102,15 +105,9 @@ E.g:
 ```kak
 # Immediately after the kakounicode plug block:
 } defer kakounicode_db %{
-    add-unicode '💩' 'pileofpoo' 'Pile of poo'
-    add-unicode-alias '💩' 'poo'
-    add-unicode-alias '💩' 'poop'
-    add-unicode-alias '💩' 'emacs'
-}
-```
+    add-unicode-alias '💯' 'kakoune'
 
-You are not limited to single characters either; any string will do:
-
-```kak
+    # You are not limited to single characters either; any string will do:
     add-unicode '¯\_(ツ)_/¯' 'shrug' 'Shrug'
+}
 ```
