@@ -59,7 +59,11 @@ define-command kakounicode-info -params 1..1 %{
             # echo -debug "result was %reg{v}"
             # info -title "kakounicode" "%arg{1} : %reg{v}
             info -title "kakounicode" "%arg{1} : %reg{v}
-aliases: %sh{ echo ""${kak_opt_kakounicode_inline_prefix}$kak_reg_w"" | sed ""s/ / ${kak_opt_kakounicode_inline_prefix}/g""}"
+aliases: %sh{ echo ""${kak_opt_kakounicode_inline_prefix}$kak_reg_w"" | sed ""s/ / ${kak_opt_kakounicode_inline_prefix}/g""}
+code point(s): %sh{ printf '%s' ""$1"" | iconv -f utf-8 -t UTF-32BE | xxd -p -c 4 | while read -r hex; do
+  n=$((16#$hex))
+  printf 'U+%X ' ""$n""
+done }"
         }
     }
 }
