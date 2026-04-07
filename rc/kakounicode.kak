@@ -63,7 +63,7 @@ hook global WinSetOption 'kakounicode_alias_autocomplete=true$' %{
                 set-register / "%opt{kakounicode_inline_prefix}[^%opt{kakounicode_inline_prefix}]+\z"
                 execute-keys 'h<a-B><a-;>s<ret><a-;>L"mZ'
                 require-module kakounicode_db
-                map-lookup-prefixes alias_unicode %val{selection}
+                map-search alias_unicode %val{selection}
                 if-not-empty "%reg{v}" %{
                     set-option window kakounicode_alias_completions \
                     "%val{cursor_line}.%val{cursor_column}+%val{selection_length}@%val{timestamp}"

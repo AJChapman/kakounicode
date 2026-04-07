@@ -66,7 +66,7 @@ define-command map-lookup -params 1..2 %{
     }
 }
 
-define-command map-lookup-prefixes -params 1..2 %{
+define-command map-search -params 1..2 %{
     evaluate-commands -draft -save-regs /"|^@w %{
         # Note that this may re-open this buffer, which is why we start our key commands with "<percent>c"; to first delete the existing buffer contents.
         edit -debug -scratch "*kakounicode-map-lookup*"
@@ -83,8 +83,6 @@ define-command map-lookup-prefixes -params 1..2 %{
             # Look up the item with this key (if any) and save it to the 'v' register.
             # Use the 'w' register to input the map, in case it contains a < character.
             set-register w "%opt{map_contents}"
-            # Set the / register to the key prefix we want to search for in the <a-k> below, so we don't have to enter it in the execute-keys, in case it contains a <
-            set-register / "\A'%reg{/}"
             # Replace buffer contents with the 'w' register,
             # split into words (key=value pairs) using the 't' register to avoid overwriting the '/' register,
             # keep only those key=value pairs matching the key we want, then save the value to the 'v' register.
