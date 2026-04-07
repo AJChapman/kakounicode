@@ -30,9 +30,10 @@ E.g:
 Now press the spacebar.
 The `\lambda` will be replaced with `λ`.
 
-The full collection of what are currently the default unicode symbols can be found in [agda.kak](rc/modules/agda.kak).
-It is based on those found in agda-mode for Emacs.
-These defaults may change in future.
+Two collections of unicode symbols are enabled by default:
+
+- [agda.kak](rc/modules/agda.kak), based on those found in agda-mode for Emacs,
+- [emoji.kak](rc/modules/emoji.kak), a collection of emoji.
 
 Note that the first expansion (intentional or otherwise) may take a couple of seconds.
 This is because the unicode aliases are not loaded until this first expansion.
@@ -41,13 +42,6 @@ Subsequent expansions should happen instantly™.
 ### Unicode Symbol Lookup
 
 You can learn about the symbol under the cursor if you set the option `kakounicode_describe_selection` to `true`.
-It's probably best not to enable it at startup, since it will require loading all the unicode aliases on startup.
-You may want to add these mappings, or similar:
-
-```kak
-    map global user k ': set global kakounicode_describe_selection true<ret>'
-    map global user K ': set global kakounicode_describe_selection false<ret>'
-```
 
 ## Configuration
 
