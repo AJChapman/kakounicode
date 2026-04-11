@@ -15,7 +15,9 @@ hook global WinSetOption 'kakounicode_auto_expand=true$' %{
                 set-register / "%opt{kakounicode_inline_prefix}[^%opt{kakounicode_inline_prefix}]+\z"
                 execute-keys 'hh<a-B><a-;>s<ret><a-;>L"mZ'
                 require-module kakounicode_db
+                # echo -debug "looking up %val{selection} in alias_unicode"
                 map-lookup alias_unicode %val{selection}
+                # echo -debug "result was %reg{v}"
                 if-not-empty "%reg{v}" %{
                     # Restore the selection from the m register, as it is inexplicably clobbered by map-lookup.
                     # We saved it with '"mZ' above.

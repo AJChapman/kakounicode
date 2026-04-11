@@ -1,9 +1,7 @@
 provide-module kakounicode_kv_store %§
 
-declare-option -hidden str kakounicode_map_equals_char "፠"
-
 define-command -hidden new-map -params 1 %{
-    declare-option -hidden str-list %arg{1}
+    declare-option -hidden str %arg{1}
 }
 
 declare-option -hidden str map_translate_result
@@ -28,14 +26,11 @@ define-command -hidden map-translate -params 1..3 %{
 
 define-command -hidden map-add-value -params 1..3 %{
     # Add this value to the map
-    set-option -add global %arg{1} "'%arg{2}'%opt{kakounicode_map_equals_char}'%arg{3}'"
+    set-option -add global %arg{1} "%arg{2}	%arg{3}
+"
 }
 
-define-command map-remove -params 1..2 %{
-    set-option -remove global %arg{1} %arg{2}
-}
-
-declare-option -hidden str-list map_contents
+declare-option -hidden str map_contents
 
 define-command map-lookup -params 1..2 %{
     evaluate-commands -draft -save-regs /"|^@w %{
@@ -54,11 +49,11 @@ define-command map-lookup -params 1..2 %{
             # Use the 'w' register to input the map, in case it contains a < character.
             set-register w "%opt{map_contents}"
             # Set the / register to the key we want to search for in the <a-k> below, so we don't have to enter it in the execute-keys, in case it contains a <
-            set-register / "\A'%reg{/}'%opt{kakounicode_map_equals_char}"
+            set-register / "\A%reg{/}\t"
             # Replace buffer contents with the 'w' register,
-            # split into words (key=value pairs) using the 't' register to avoid overwriting the '/' register,
-            # keep only those key=value pairs matching the key we want, then save the value to the 'v' register.
-            execute-keys -draft "<percent>""wR<percent>H""ts'[^']+'%opt{kakounicode_map_equals_char}'[^']+'<ret><a-k><ret>;<a-/>%opt{kakounicode_map_equals_char}<ret>llt'""vy"
+            # split into lines (key<tab>value pairs),
+            # keep only those key<tab>value pairs matching the key we want, then save the value to the 'v' register.
+            execute-keys -draft "<percent>""wR<percent>H<a-s><a-k><ret>;h<a-t><tab>""vy"
         } catch %{
             # If anything fails return nothing
             set-register v ''
@@ -84,9 +79,9 @@ define-command map-search -params 1..2 %{
             # Use the 'w' register to input the map, in case it contains a < character.
             set-register w "%opt{map_contents}"
             # Replace buffer contents with the 'w' register,
-            # split into words (key=value pairs) using the 't' register to avoid overwriting the '/' register,
-            # keep only those key=value pairs matching the key we want, then save the value to the 'v' register.
-            execute-keys -draft "<percent>""wR<percent>H""ts'[^']+'%opt{kakounicode_map_equals_char}'[^']+'<ret><a-k><ret>""vy"
+            # split into lines (key<tab>value pairs),
+            # keep only those key<tab>value pairs matching the key we want, then save the value to the 'v' register.
+            execute-keys -draft "<percent>""wR<percent>H<a-s><a-k><ret>;h<a-t><tab>""vy"
         } catch %{
             # If anything fails return nothing
             set-register v ''
