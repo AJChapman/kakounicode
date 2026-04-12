@@ -9,19 +9,16 @@ hook global WinSetOption 'kakounicode_auto_expand=false$' %{
 hook global WinSetOption 'kakounicode_auto_expand=true$' %{
     rmhooks window kakounicode-auto-expand
     hook -group kakounicode-auto-expand window InsertChar %opt{kakounicode_inline_suffix} %{
-        evaluate-commands -draft -save-regs /"|^@vm %{
+        evaluate-commands -draft -save-regs /"|^@v %{
             try %{
                 # Search backwards to the previous %opt{kakounicode_inline_prefix}, stopping if we reach whitespace and failing if we don't find it
                 set-register / "%opt{kakounicode_inline_prefix}[^%opt{kakounicode_inline_prefix}]+\z"
-                execute-keys 'hh<a-B><a-;>s<ret><a-;>L"mZ'
+                execute-keys 'hh<a-B><a-;>s<ret><a-;>L'
                 require-module kakounicode_db
                 # echo -debug "looking up %val{selection} in alias_unicode"
                 map-lookup alias_unicode %val{selection}
                 # echo -debug "result was %reg{v}"
                 if-not-empty "%reg{v}" %{
-                    # Restore the selection from the m register, as it is inexplicably clobbered by map-lookup.
-                    # We saved it with '"mZ' above.
-                    exec '"mz'
                     exec "H<a-;>Lc%reg{v}"
                 }
             }
@@ -59,11 +56,11 @@ hook global WinSetOption 'kakounicode_alias_autocomplete=false$' %{
 hook global WinSetOption 'kakounicode_alias_autocomplete=true$' %{
     rmhooks window kakounicode-alias-autocomplete
     hook -group kakounicode-alias-autocomplete window InsertIdle .* %{
-        evaluate-commands -draft -save-regs /"|^@vm %{
+        evaluate-commands -draft -save-regs /"|^@v %{
             try %{
                 # Search backwards to the previous %opt{kakounicode_inline_prefix}, stopping if we reach whitespace and failing if we don't find it
                 set-register / "%opt{kakounicode_inline_prefix}[^%opt{kakounicode_inline_prefix}]+\z"
-                execute-keys 'h<a-B><a-;>s<ret><a-;>L"mZ'
+                execute-keys 'h<a-B><a-;>s<ret><a-;>L'
                 require-module kakounicode_db
                 map-search alias_unicode %val{selection}
                 if-not-empty "%reg{v}" %{
@@ -71,10 +68,11 @@ hook global WinSetOption 'kakounicode_alias_autocomplete=true$' %{
                     "%val{cursor_line}.%val{cursor_column}+%val{selection_length}@%val{timestamp}"
                     eval %sh{
                         n=0
-                        for sel in $kak_reg_v; do
+                        printf "%s\n" "$kak_reg_v" |
+                        while IFS= read -r sel; do
                             [ "$n" -ge "$kak_opt_kakounicode_alias_completion_limit" ] && break
-                            alias=$(echo "$sel" | sed -n "s/^'\([^']*\)'.'[^']*'$/\1/p" | sed 's/\\/\\\\/g' | sed 's/|/\\|/g')
-                            unicode=$(echo "$sel" | sed -n "s/^'[^']*'.'\([^']*\)'$/\1/p")
+                            alias=$(echo "$sel" | sed 's/\t.*//' | sed 's/^ //' | sed 's/\\/\\\\/g' | sed 's/|/\\|/g')
+                            unicode=$(echo "$sel" | sed 's/.*\t//')
                             echo "set-option -add window kakounicode_alias_completions \"$alias|kakounicode-info $unicode|$unicode $kak_opt_kakounicode_inline_prefix$alias\""
                             n=$((n + 1))
                         done

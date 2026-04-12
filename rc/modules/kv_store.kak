@@ -43,7 +43,7 @@ define-command map-lookup -params 1..2 %{
             # Use the v register to input the key, in case it contains a < character.
             # We have to *not* save the / register so we can retrieve it, so we exclude it from the -save-regs list.
             set-register v %arg{2}
-            execute-keys -draft -save-regs |"^@vm "<percent>""vR<percent>H*"
+            execute-keys -draft -save-regs |"^@v "<percent>""vR<percent>H*"
 
             # Look up the item with this key (if any) and save it to the 'v' register.
             # Use the 'w' register to input the map, in case it contains a < character.
@@ -73,7 +73,7 @@ define-command map-search -params 1..2 %{
             # We have to *not* save the / register so we can retrieve it, so we exclude it from the -save-regs list.
             # The Haa<esc>Hia<esc> is to stop kak adding \b at the start and end of the regex for this search
             set-register v %arg{2}
-            execute-keys -draft -save-regs |"^@vm "<percent>""vR<percent>Haa<esc>Hia<esc>*"
+            execute-keys -draft -save-regs |"^@v "<percent>""vR<percent>Haa<esc>Hia<esc>*"
 
             # Look up the item with this key (if any) and save it to the 'v' register.
             # Use the 'w' register to input the map, in case it contains a < character.
@@ -81,7 +81,7 @@ define-command map-search -params 1..2 %{
             # Replace buffer contents with the 'w' register,
             # split into lines (key<tab>value pairs),
             # keep only those key<tab>value pairs matching the key we want, then save the value to the 'v' register.
-            execute-keys -draft "<percent>""wR<percent>H<a-s><a-k><ret>;h<a-t><tab>""vy"
+            execute-keys -draft "<percent>""wR<percent>H<a-s><a-k><ret>""vy"
         } catch %{
             # If anything fails return nothing
             set-register v ''
