@@ -4,25 +4,25 @@ define-command -hidden new-map -params 1 %{
     declare-option -hidden str %arg{1}
 }
 
-declare-option -hidden str map_translate_result
+# declare-option -hidden str map_translate_result
 
-define-command -hidden map-translate -params 1..3 %{
-    # Note that this may re-open this buffer, which is why we first delete any existing buffer contents.
-    edit -debug -scratch "*kakounicode-map-translate*"
-    set-register v %arg{1}
-    set-register / %arg{2}
-    set-register u %arg{3}
-    try %{
-        # Replace the buffer contents with the string (from the 'v' register),
-        # search for all matching strings (uses the existing '/' register),
-        # replaces those with the replacement string,
-        # and saves the result to the 'v' register.
-        # If anything fails then the 'v' register will remain unchanged, being the input string.
-        execute-keys -draft "<percent>""vR<percent>s<ret>""uR<percent>H""vy"
-    }
-    # Save the result to be retrieved by the caller
-    set-option global map_translate_result %reg{v}
-}
+# define-command -hidden map-translate -params 1..3 %{
+#     # Note that this may re-open this buffer, which is why we first delete any existing buffer contents.
+#     edit -debug -scratch "*kakounicode-map-translate*"
+#     set-register v %arg{1}
+#     set-register / %arg{2}
+#     set-register u %arg{3}
+#     try %{
+#         # Replace the buffer contents with the string (from the 'v' register),
+#         # search for all matching strings (uses the existing '/' register),
+#         # replaces those with the replacement string,
+#         # and saves the result to the 'v' register.
+#         # If anything fails then the 'v' register will remain unchanged, being the input string.
+#         execute-keys -draft "<percent>""vR<percent>s<ret>""uR<percent>H""vy"
+#     }
+#     # Save the result to be retrieved by the caller
+#     set-option global map_translate_result %reg{v}
+# }
 
 define-command -hidden map-add-value -params 1..3 %{
     # Add this value to the map

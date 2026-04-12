@@ -57,8 +57,7 @@ plug "AJChapman/kakounicode" config %{
     # Set whether aliases will be expanded or not.
     # This is basically the on/off switch.
     set-option global kakounicode_auto_expand true
-    map global kakounicode-menu k ': set global kakounicode_auto_expand true<ret>' -docstring 'Alias expansion on'
-    map global kakounicode-menu <a-k> ': set global kakounicode_auto_expand false<ret>' -docstring 'Alias expansion off'
+    map global kakounicode-menu k ': toggle-option kakounicode_auto_expand<ret>' -docstring 'Toggle alias expansion'
 
     # Set what should delimit the start of a unicode alias, e.g. if you want `lambda to expand to λ instead.
     # Note that this should be a regex search term, hence the default needing to be escaped.
@@ -70,7 +69,6 @@ plug "AJChapman/kakounicode" config %{
     # Enable or disable collections of unicode symbol aliases.
     set-option global kakounicode_enable_agda true
     set-option global kakounicode_enable_emoji true
-    set-option global kakounicode_enable_emoji_extra_aliases true
 
     # These are all superseded by the agda collection, though you may want them individually, without the rest
     set-option global kakounicode_enable_greek false
@@ -81,13 +79,11 @@ plug "AJChapman/kakounicode" config %{
     # Enable alias autocomplete completer
     set-option global kakounicode_alias_autocomplete true
     set-option global completers option=kakounicode_alias_completions %opt{completers}
-    map global kakounicode-menu a ': set global kakounicode_alias_autocomplete true<ret>' -docstring 'Alias autocomplete on'
-    map global kakounicode-menu <a-a> ': set global kakounicode_alias_autocomplete false<ret>' -docstring 'Alias autocomplete off'
+    map global kakounicode-menu a ': toggle-option kounicode_alias_autocomplete<ret>' -docstring 'Toggle alias autocompletion'
 
     # Enable or disable describing the currently selected unicode symbol
     set-option global kakounicode_describe_selection true
-    map global kakounicode-menu d ': set global kakounicode_describe_selection true<ret>' -docstring 'Describe character on'
-    map global kakounicode-menu <a-d> ': set global kakounicode_describe_selection false<ret>' -docstring 'Describe character off'
+    map global kakounicode-menu d ': toggle-option kakounicode_describe_selection<ret>' -docstring 'Toggle unicode character description'
 }
 ```
 

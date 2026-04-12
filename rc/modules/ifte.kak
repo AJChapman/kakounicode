@@ -19,4 +19,17 @@ define-command if-not-empty -params 2 %{
     } catch %arg{2}
 }
 
+declare-option -hidden str toggle_option_option
+declare-option -hidden str toggle_option_value
+
+define-command toggle-option -params 1 %{
+    eval "set-option global toggle_option_option %arg{1}"
+    eval "set-option global toggle_option_value %%opt{%arg{1}}"
+    ifte %opt{toggle_option_value} %{
+        set-option global %opt{toggle_option_option} false
+    } %{
+        set-option global %opt{toggle_option_option} true
+    }
+}
+
 §
