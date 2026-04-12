@@ -89,4 +89,34 @@ define-command map-search -params 1..2 %{
     }
 }
 
+define-command map-search-key-with-prefix -params 1..2 %{
+    evaluate-commands -draft -save-regs /"|^@w %{
+        # Note that this may re-open this buffer, which is why we start our key commands with "<percent>c"; to first delete the existing buffer contents.
+        edit -debug -scratch "*kakounicode-map-lookup*"
+        # Set %opt{map_contents} to the contents of the map
+        eval "set-option global map_contents %%opt{%arg{1}}"
+        try %{
+            # Use the '*' command to set the '/' register to a regex-escaped version of arg 2.
+            # Use the v register to input the key, in case it contains a < character.
+            # We have to *not* save the / register so we can retrieve it, so we exclude it from the -save-regs list.
+            # The Haa<esc>H is to stop kak adding \b at the end of the regex for this search
+            set-register v %arg{2}
+            execute-keys -draft -save-regs |"^@v "<percent>""vR<percent>Haa<esc>H*"
+
+            # Look up the item with this key (if any) and save it to the 'v' register.
+            # Use the 'w' register to input the map, in case it contains a < character.
+            set-register w "%opt{map_contents}"
+            # Set the / register to the key prefix we want to search for in the <a-k> below, so we don't have to enter it in the execute-keys, in case it contains a <
+            set-register / "\A%reg{/}"
+            # Replace buffer contents with the 'w' register,
+            # split into lines (key<tab>value pairs),
+            # keep only those key<tab>value pairs matching the key we want, then save the value to the 'v' register.
+            execute-keys -draft "<percent>""wR<percent>H<a-s><a-k><ret>""vy"
+        } catch %{
+            # If anything fails return nothing
+            set-register v ''
+        }
+    }
+}
+
 §

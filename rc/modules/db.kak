@@ -68,4 +68,20 @@ done }"
     }
 }
 
+define-command -hidden kakounicode-set-completions-from-register-v %{
+    set-option window kakounicode_alias_completions \
+        "%val{cursor_line}.%val{cursor_column}+%val{selection_length}@%val{timestamp}"
+    evaluate-commands %sh{
+        n=0
+        printf "%s\n" "$kak_reg_v" |
+        while IFS= read -r sel; do
+            [ "$n" -ge "$kak_opt_kakounicode_alias_completion_limit" ] && break
+            alias=$(echo "$sel" | sed 's/\t.*//' | sed 's/^ //' | sed 's/\\/\\\\/g' | sed 's/|/\\|/g')
+            unicode=$(echo "$sel" | sed 's/.*\t//')
+            echo "set-option -add window kakounicode_alias_completions \"$alias|kakounicode-info $unicode|$unicode $kak_opt_kakounicode_inline_prefix$alias\""
+            n=$((n + 1))
+        done
+    }
+}
+
 §

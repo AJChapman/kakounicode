@@ -62,21 +62,19 @@ hook global WinSetOption 'kakounicode_alias_autocomplete=true$' %{
                 set-register / "%opt{kakounicode_inline_prefix}[^%opt{kakounicode_inline_prefix}]+\z"
                 execute-keys 'h<a-B><a-;>s<ret><a-;>L'
                 require-module kakounicode_db
-                map-search alias_unicode %val{selection}
-                if-not-empty "%reg{v}" %{
-                    set-option window kakounicode_alias_completions \
-                    "%val{cursor_line}.%val{cursor_column}+%val{selection_length}@%val{timestamp}"
-                    eval %sh{
-                        n=0
-                        printf "%s\n" "$kak_reg_v" |
-                        while IFS= read -r sel; do
-                            [ "$n" -ge "$kak_opt_kakounicode_alias_completion_limit" ] && break
-                            alias=$(echo "$sel" | sed 's/\t.*//' | sed 's/^ //' | sed 's/\\/\\\\/g' | sed 's/|/\\|/g')
-                            unicode=$(echo "$sel" | sed 's/.*\t//')
-                            echo "set-option -add window kakounicode_alias_completions \"$alias|kakounicode-info $unicode|$unicode $kak_opt_kakounicode_inline_prefix$alias\""
-                            n=$((n + 1))
-                        done
+                map-search-key-with-prefix alias_unicode %val{selection}
+                try %{
+                    # This will fail if a key with this prefix was found, and the catch block with run
+                    eval "nop%reg{v}"
+
+                    # A key with this prefix was not found, so search the aliases for this string anywhere
+                    map-search alias_unicode %val{selection}
+                    if-not-empty "%reg{v}" %{
+                        kakounicode-set-completions-from-register-v
                     }
+                } catch %{
+                    # Aliases with this prefix were found, so use these and don't search
+                    kakounicode-set-completions-from-register-v
                 }
             } catch %{
                 set-option window kakounicode_alias_completions
@@ -84,6 +82,7 @@ hook global WinSetOption 'kakounicode_alias_autocomplete=true$' %{
         }
     }
 }
+
 # this one must be declared after the hook, otherwise it might not be enabled right away
 declare-option -docstring 'Set whether kakounicode will suggest unicode alias completions.' \
     bool kakounicode_alias_autocomplete true
