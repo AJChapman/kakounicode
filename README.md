@@ -1,5 +1,7 @@
 # Kakounicode
 
+![Intro to kakounicode](./demo.svg)
+
 Unicode character (code point) input, and more.
 
 Kakounicode allows you to input aliases, such as '\lambda', followed by a space key (which will not be input) and have this replaced by the corresponding unicode character.
@@ -69,6 +71,7 @@ plug "AJChapman/kakounicode" config %{
     # Enable or disable collections of unicode symbol aliases.
     set-option global kakounicode_enable_agda true
     set-option global kakounicode_enable_emoji true
+    set-option global kakounicode_enable_emoji_extra_aliases true
 
     # These are all superseded by the agda collection, though you may want them individually, without the rest
     set-option global kakounicode_enable_greek false
