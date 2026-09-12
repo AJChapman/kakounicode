@@ -1,5 +1,3 @@
-require-module kakounicode_ifte
-
 declare-option -docstring 'Enable equals and similar kakounicode aliases.' \
     str kakounicode_enable_equals_and_similar false
 

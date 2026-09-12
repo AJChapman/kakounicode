@@ -1,5 +1,3 @@
-require-module kakounicode_ifte
-
 declare-option -docstring 'Enable set operations kakounicode aliases.' \
     str kakounicode_enable_sets false
 

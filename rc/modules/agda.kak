@@ -1,5 +1,3 @@
-require-module kakounicode_ifte
-
 declare-option -docstring 'Enable Agda kakounicode aliases, matching agda-mode in Emacs.' \
     str kakounicode_enable_agda true
 

@@ -1,5 +1,3 @@
-require-module kakounicode_ifte
-
 declare-option -docstring 'Enable extra Emoji kakounicode aliases' \
     str kakounicode_enable_emoji_extra_aliases true
 
